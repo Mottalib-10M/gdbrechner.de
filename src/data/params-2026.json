@@ -1,0 +1,494 @@
+{
+  "_lisezmoi": "Alle Rechtswerte der Seite, nie fest im Code (RECETTE-SITE.md §4). Jeder Wert ist an der genannten Quelle gelesen; retrieved_at ist der Tag der Prüfung. Rohtexte: research/.",
+  "year": 2026,
+  "retrieved_at": "2026-10-20",
+  "valid_from": "2026-01-01",
+  "valid_to": "2026-12-31",
+  "versmedv": {
+    "in_kraft": "2025-10-03",
+    "verkuendet": "2025-10-02",
+    "verordnung_vom": "2025-09-29",
+    "bgbl": "BGBl. 2025 I Nr. 228"
+  },
+  "schwelle": {
+    "min_gdb": 20,
+    "gleichstellung": 30,
+    "schwerbehinderung": 50
+  },
+  "gesamt": {
+    "_annahme": "Annahme dieser Seite, nicht der Verordnung: Größe eines Erhöhungsschritts, Einzelwert, ab dem eine weitere Beeinträchtigung als schwer gilt, und Höchstzuschlag bei Einzel-GdB 10 (Teil A Nr. 3.5: in der Regel keiner). Offengelegt auf der Methodikseite.",
+    "annahme": {
+      "schritt": 10,
+      "grosse_ab": 50,
+      "max_bei_10": 0
+    }
+  },
+  "pauschbetrag": {
+    "stufen": [
+      [
+        20,
+        384
+      ],
+      [
+        30,
+        620
+      ],
+      [
+        40,
+        860
+      ],
+      [
+        50,
+        1140
+      ],
+      [
+        60,
+        1440
+      ],
+      [
+        70,
+        1780
+      ],
+      [
+        80,
+        2120
+      ],
+      [
+        90,
+        2460
+      ],
+      [
+        100,
+        2840
+      ]
+    ],
+    "erhoeht": 7400,
+    "seit_vz": 2021
+  },
+  "fahrtkosten": {
+    "klein": 900,
+    "gross": 4500,
+    "gdb_klein": 80,
+    "gdb_klein_mit_g": 70
+  },
+  "urlaub": {
+    "tage_bei_5": 5
+  },
+  "kuendigung": {
+    "wartezeit_monate": 6,
+    "frist_wochen_min": 4,
+    "entscheidung_monate": 1,
+    "ausserordentlich_wochen": 2
+  },
+  "rente": {
+    "wartezeit_jahre": 35,
+    "abschlag_je_monat": 0.003,
+    "tabelle": [
+      {
+        "jahrgang": 1952,
+        "ohne_j": 63,
+        "ohne_m": 6,
+        "frueh_j": 60,
+        "frueh_m": 6
+      },
+      {
+        "jahrgang": 1953,
+        "ohne_j": 63,
+        "ohne_m": 7,
+        "frueh_j": 60,
+        "frueh_m": 7
+      },
+      {
+        "jahrgang": 1954,
+        "ohne_j": 63,
+        "ohne_m": 8,
+        "frueh_j": 60,
+        "frueh_m": 8
+      },
+      {
+        "jahrgang": 1955,
+        "ohne_j": 63,
+        "ohne_m": 9,
+        "frueh_j": 60,
+        "frueh_m": 9
+      },
+      {
+        "jahrgang": 1956,
+        "ohne_j": 63,
+        "ohne_m": 10,
+        "frueh_j": 60,
+        "frueh_m": 10
+      },
+      {
+        "jahrgang": 1957,
+        "ohne_j": 63,
+        "ohne_m": 11,
+        "frueh_j": 60,
+        "frueh_m": 11
+      },
+      {
+        "jahrgang": 1958,
+        "ohne_j": 64,
+        "ohne_m": 0,
+        "frueh_j": 61,
+        "frueh_m": 0
+      },
+      {
+        "jahrgang": 1959,
+        "ohne_j": 64,
+        "ohne_m": 2,
+        "frueh_j": 61,
+        "frueh_m": 2
+      },
+      {
+        "jahrgang": 1960,
+        "ohne_j": 64,
+        "ohne_m": 4,
+        "frueh_j": 61,
+        "frueh_m": 4
+      },
+      {
+        "jahrgang": 1961,
+        "ohne_j": 64,
+        "ohne_m": 6,
+        "frueh_j": 61,
+        "frueh_m": 6
+      },
+      {
+        "jahrgang": 1962,
+        "ohne_j": 64,
+        "ohne_m": 8,
+        "frueh_j": 61,
+        "frueh_m": 8
+      },
+      {
+        "jahrgang": 1963,
+        "ohne_j": 64,
+        "ohne_m": 10,
+        "frueh_j": 61,
+        "frueh_m": 10
+      },
+      {
+        "jahrgang": 1964,
+        "ohne_j": 65,
+        "ohne_m": 0,
+        "frueh_j": 62,
+        "frueh_m": 0
+      }
+    ],
+    "_hinweis": "Jahrgang 1952: Januar bis Mai abweichend (1 bis 5 Monate), hier der Wert für Juni bis Dezember."
+  },
+  "wertmarke": {
+    "jahr": 104,
+    "halbjahr": 53,
+    "seit": "2025-01-01"
+  },
+  "rundfunk": {
+    "voll": 18.36,
+    "ermaessigt": 6.12,
+    "rueckwirkend_jahre": 3
+  },
+  "ausweis": {
+    "befristung_jahre": 5
+  },
+  "verfahren": {
+    "widerspruch_monate": 1,
+    "klage_monate": 1,
+    "entscheidung_ohne_gutachten_wochen": 3,
+    "ueberpruefung_jahre": 4,
+    "bekanntgabe_tag": 4
+  },
+  "beschaeftigung": {
+    "pflicht_ab_plaetze": 20,
+    "quote": 0.05,
+    "abgabe": [
+      [
+        0.03,
+        155
+      ],
+      [
+        0.02,
+        275
+      ],
+      [
+        0.0001,
+        405
+      ],
+      [
+        0,
+        815
+      ]
+    ]
+  },
+  "steuer": {
+    "tarif": {
+      "grundfreibetrag": 12348,
+      "zone2_bis": 17799,
+      "zone3_bis": 69878,
+      "zone4_bis": 277825,
+      "z2_a": 914.51,
+      "z2_b": 1400,
+      "z3_a": 173.1,
+      "z3_b": 2397,
+      "z3_c": 1034.87,
+      "z4_satz": 0.42,
+      "z4_abzug": 11135.63,
+      "z5_satz": 0.45,
+      "z5_abzug": 19470.38
+    },
+    "soli": {
+      "satz": 0.055,
+      "freigrenze_einzel": 20350,
+      "freigrenze_zusammen": 40700,
+      "milderung": 0.119
+    },
+    "zumutbar": {
+      "grenze1": 15340,
+      "grenze2": 51130,
+      "ohne_kinder_grund": [
+        0.05,
+        0.06,
+        0.07
+      ],
+      "ohne_kinder_splitting": [
+        0.04,
+        0.05,
+        0.06
+      ],
+      "kinder_1_2": [
+        0.02,
+        0.03,
+        0.04
+      ],
+      "kinder_ab3": [
+        0.01,
+        0.01,
+        0.02
+      ]
+    }
+  },
+  "sources": {
+    "versmedv": {
+      "url": "https://www.gesetze-im-internet.de/versmedv/BJNR241200008.html",
+      "label": {
+        "de": "Versorgungsmedizin-Verordnung mit Anlage (Versorgungsmedizinische Grundsätze), gesetze-im-internet.de"
+      }
+    },
+    "bgbl2025": {
+      "url": "https://www.recht.bund.de/bgbl/1/2025/228/VO.html",
+      "label": {
+        "de": "Sechste Verordnung zur Änderung der Versorgungsmedizin-Verordnung vom 29.09.2025, BGBl. 2025 I Nr. 228"
+      }
+    },
+    "versmedvAlt": {
+      "url": "https://web.archive.org/web/20250910080626/https://www.gesetze-im-internet.de/versmedv/BJNR241200008.html",
+      "label": {
+        "de": "Versorgungsmedizin-Verordnung, Fassung bis 02.10.2025 (Archivkopie)"
+      }
+    },
+    "estg33b": {
+      "url": "https://www.gesetze-im-internet.de/estg/__33b.html",
+      "label": {
+        "de": "§ 33b EStG: Pauschbeträge für Menschen mit Behinderungen"
+      }
+    },
+    "estg33": {
+      "url": "https://www.gesetze-im-internet.de/estg/__33.html",
+      "label": {
+        "de": "§ 33 EStG: außergewöhnliche Belastungen, Fahrtkostenpauschale"
+      }
+    },
+    "estg32a": {
+      "url": "https://www.gesetze-im-internet.de/estg/__32a.html",
+      "label": {
+        "de": "§ 32a EStG: Einkommensteuertarif"
+      }
+    },
+    "solzg": {
+      "url": "https://www.gesetze-im-internet.de/solzg_1995/__3.html",
+      "label": {
+        "de": "§ 3 Solidaritätszuschlaggesetz 1995: Freigrenzen"
+      }
+    },
+    "estdv65": {
+      "url": "https://www.gesetze-im-internet.de/estdv_1955/__65.html",
+      "label": {
+        "de": "§ 65 EStDV: Nachweis der Behinderung, elektronische Übermittlung ab 2026"
+      }
+    },
+    "sgb9_2": {
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__2.html",
+      "label": {
+        "de": "§ 2 SGB IX: Begriffsbestimmungen, Schwerbehinderung, Gleichstellung"
+      }
+    },
+    "sgb9_151": {
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__151.html",
+      "label": {
+        "de": "§ 151 SGB IX: Geltungsbereich, Gleichstellung durch die Bundesagentur für Arbeit"
+      }
+    },
+    "sgb9_152": {
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__152.html",
+      "label": {
+        "de": "§ 152 SGB IX: Feststellung der Behinderung, Ausweise"
+      }
+    },
+    "sgb9_154": {
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__154.html",
+      "label": {
+        "de": "§ 154 SGB IX: Pflicht der Arbeitgeber zur Beschäftigung"
+      }
+    },
+    "sgb9_168": {
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__168.html",
+      "label": {
+        "de": "§ 168 SGB IX: Erfordernis der Zustimmung des Integrationsamts"
+      }
+    },
+    "sgb9_173": {
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__173.html",
+      "label": {
+        "de": "§ 173 SGB IX: Ausnahmen vom Kündigungsschutz"
+      }
+    },
+    "sgb9_208": {
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__208.html",
+      "label": {
+        "de": "§ 208 SGB IX: Zusatzurlaub"
+      }
+    },
+    "sgb9_228": {
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__228.html",
+      "label": {
+        "de": "§ 228 SGB IX: Unentgeltliche Beförderung, Wertmarke"
+      }
+    },
+    "sgb9_229": {
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__229.html",
+      "label": {
+        "de": "§ 229 SGB IX: Merkzeichen G, B und aG"
+      }
+    },
+    "schwbawv3": {
+      "url": "https://www.gesetze-im-internet.de/schwbawv/__3.html",
+      "label": {
+        "de": "§ 3 Schwerbehindertenausweisverordnung: Merkzeichen"
+      }
+    },
+    "schwbawv6": {
+      "url": "https://www.gesetze-im-internet.de/schwbawv/__6.html",
+      "label": {
+        "de": "§ 6 Schwerbehindertenausweisverordnung: Gültigkeitsdauer"
+      }
+    },
+    "sgb6_37": {
+      "url": "https://www.gesetze-im-internet.de/sgb_6/__37.html",
+      "label": {
+        "de": "§ 37 SGB VI: Altersrente für schwerbehinderte Menschen"
+      }
+    },
+    "sgb6_236a": {
+      "url": "https://www.gesetze-im-internet.de/sgb_6/__236a.html",
+      "label": {
+        "de": "§ 236a SGB VI: Altersgrenzen für Jahrgänge vor 1964"
+      }
+    },
+    "sgb6_77": {
+      "url": "https://www.gesetze-im-internet.de/sgb_6/__77.html",
+      "label": {
+        "de": "§ 77 SGB VI: Zugangsfaktor, Abschlag je Monat"
+      }
+    },
+    "kraftstg3a": {
+      "url": "https://www.gesetze-im-internet.de/kraftstg/__3a.html",
+      "label": {
+        "de": "§ 3a Kraftfahrzeugsteuergesetz: Vergünstigungen für schwerbehinderte Personen"
+      }
+    },
+    "rbstv4": {
+      "url": "https://www.gesetze-bayern.de/Content/Document/RBeitrStV-4",
+      "label": {
+        "de": "§ 4 Rundfunkbeitragsstaatsvertrag: Befreiungen und Ermäßigung"
+      }
+    },
+    "rundfunkbeitrag": {
+      "url": "https://www.rundfunkbeitrag.de/buergerinnen_und_buerger/informationen/menschen_mit_behinderung/index_ger.html",
+      "label": {
+        "de": "ARD ZDF Deutschlandradio Beitragsservice: Menschen mit Behinderung"
+      }
+    },
+    "wertmarkeBerlin": {
+      "url": "https://service.berlin.de/dienstleistung/326794/",
+      "label": {
+        "de": "Service Berlin: Wertmarke für die unentgeltliche Beförderung, Gebühren seit 01.01.2025"
+      }
+    },
+    "vwvStvo": {
+      "url": "https://www.verwaltungsvorschriften-im-internet.de/bsvwvbund_26012001_S3236420014.htm",
+      "label": {
+        "de": "Allgemeine Verwaltungsvorschrift zur StVO, zu § 46 Abs. 1 Nr. 11: Parkerleichterungen"
+      }
+    },
+    "sgg84": {
+      "url": "https://www.gesetze-im-internet.de/sgg/__84.html",
+      "label": {
+        "de": "§ 84 Sozialgerichtsgesetz: Widerspruchsfrist"
+      }
+    },
+    "sgg87": {
+      "url": "https://www.gesetze-im-internet.de/sgg/__87.html",
+      "label": {
+        "de": "§ 87 Sozialgerichtsgesetz: Klagefrist"
+      }
+    },
+    "sgb10_44": {
+      "url": "https://www.gesetze-im-internet.de/sgb_10/__44.html",
+      "label": {
+        "de": "§ 44 SGB X: Überprüfungsantrag"
+      }
+    },
+    "sgb10_48": {
+      "url": "https://www.gesetze-im-internet.de/sgb_10/__48.html",
+      "label": {
+        "de": "§ 48 SGB X: Änderung der Verhältnisse, Neufeststellung"
+      }
+    },
+    "sgb9_14": {
+      "url": "https://www.gesetze-im-internet.de/sgb_9_2018/__14.html",
+      "label": {
+        "de": "§ 14 SGB IX: Fristen für die Entscheidung"
+      }
+    },
+    "bihAbgabe": {
+      "url": "https://www.bih.de/integrationsaemter/medien-und-publikationen/fachlexikon-a-z/ausgleichsabgabe/",
+      "label": {
+        "de": "BIH Integrationsämter: Ausgleichsabgabe ab 2025"
+      }
+    },
+    "zbfs": {
+      "url": "https://www.zbfs.bayern.de/menschen_mit_behinderung/antrag_und_feststellungsverfahren/",
+      "label": {
+        "de": "ZBFS Bayern: Antrag und Feststellungsverfahren"
+      }
+    },
+    "nrw": {
+      "url": "https://www.mags.nrw/inklusionsportal-schwerbehindertenausweis",
+      "label": {
+        "de": "MAGS NRW: Schwerbehindertenausweis"
+      }
+    },
+    "sgb10_37": {
+      "url": "https://www.gesetze-im-internet.de/sgb_10/__37.html",
+      "label": {
+        "de": "§ 37 SGB X: Bekanntgabe des Verwaltungsakts, vierter Tag nach Aufgabe zur Post"
+      }
+    },
+    "sgg66": {
+      "url": "https://www.gesetze-im-internet.de/sgg/__66.html",
+      "label": {
+        "de": "§ 66 Sozialgerichtsgesetz: Frist bei fehlender Rechtsbehelfsbelehrung"
+      }
+    }
+  }
+}

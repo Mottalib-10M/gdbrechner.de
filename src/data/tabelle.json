@@ -1,0 +1,4874 @@
+{
+  "stand": "2025-10-03",
+  "quelle": "Versorgungsmedizin-Verordnung, Anlage Teil B (GdS-Tabelle), Stand BGBl. 2025 I Nr. 228",
+  "systeme": [
+    {
+      "id": "kopf",
+      "name": "Kopf und Gesicht",
+      "teilB": "2"
+    },
+    {
+      "id": "psyche",
+      "name": "Nervensystem und Psyche",
+      "teilB": "3"
+    },
+    {
+      "id": "augen",
+      "name": "Sehorgan",
+      "teilB": "4"
+    },
+    {
+      "id": "ohren",
+      "name": "Hör- und Gleichgewichtsorgan",
+      "teilB": "5"
+    },
+    {
+      "id": "nase-mund",
+      "name": "Nase, Mundhöhle, Rachenraum und obere Luftwege",
+      "teilB": "6, 7"
+    },
+    {
+      "id": "lunge",
+      "name": "Brustkorb, tiefere Atemwege und Lungen",
+      "teilB": "8"
+    },
+    {
+      "id": "herz",
+      "name": "Herz und Kreislauf",
+      "teilB": "9"
+    },
+    {
+      "id": "verdauung",
+      "name": "Verdauungsorgane, Brüche (Hernien)",
+      "teilB": "10, 11"
+    },
+    {
+      "id": "harn",
+      "name": "Harnorgane",
+      "teilB": "12"
+    },
+    {
+      "id": "geschlecht",
+      "name": "Männliche und weibliche Geschlechtsorgane",
+      "teilB": "13, 14"
+    },
+    {
+      "id": "stoffwechsel",
+      "name": "Stoffwechsel, innere Sekretion",
+      "teilB": "15"
+    },
+    {
+      "id": "blut",
+      "name": "Blut, blutbildende Organe, Immunsystem",
+      "teilB": "16"
+    },
+    {
+      "id": "haut",
+      "name": "Haut",
+      "teilB": "17"
+    },
+    {
+      "id": "wirbelsaeule",
+      "name": "Rumpf und Wirbelsäule",
+      "teilB": "18.9, 18.10"
+    },
+    {
+      "id": "arme",
+      "name": "Obere Gliedmaßen",
+      "teilB": "18.13 (Endoprothesen: 18.12)"
+    },
+    {
+      "id": "beine",
+      "name": "Untere Gliedmaßen",
+      "teilB": "18.14 (Endoprothesen: 18.12)"
+    },
+    {
+      "id": "rheuma",
+      "name": "Rheumatische Krankheiten und andere Schäden der Haltungs- und Bewegungsorgane",
+      "teilB": "18.1 bis 18.7"
+    }
+  ],
+  "eintraege": [
+    {
+      "id": "gesichtsentstellung",
+      "system": "kopf",
+      "nr": "2.1",
+      "name": "Gesichtsentstellung",
+      "suche": [
+        "entstellung",
+        "gesichtsnarbe",
+        "narben gesicht"
+      ],
+      "stufen": [
+        {
+          "text": "Einfache Gesichtsentstellung, nur wenig störend",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "Einfache Gesichtsentstellung, sonst",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "Hochgradige Entstellung des Gesichts",
+          "von": 50,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "trigeminusneuralgie",
+      "system": "kopf",
+      "nr": "2.2",
+      "name": "Gesichtsneuralgien (z. B. Trigeminusneuralgie)",
+      "suche": [
+        "trigeminusneuralgie",
+        "gesichtsschmerz",
+        "neuralgie"
+      ],
+      "stufen": [
+        {
+          "text": "leicht (seltene, leichte Schmerzen)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mittelgradig (häufigere, leichte bis mittelgradige Schmerzen, schon durch geringe Reize auslösbar)",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "schwer (häufige, mehrmals im Monat auftretende starke Schmerzen bzw. Schmerzattacken)",
+          "von": 50,
+          "bis": 60
+        },
+        {
+          "text": "besonders schwer (starker Dauerschmerz oder Schmerzattacken mehrmals wöchentlich)",
+          "von": 70,
+          "bis": 80
+        }
+      ]
+    },
+    {
+      "id": "migraene",
+      "system": "kopf",
+      "nr": "2.3",
+      "name": "Echte Migräne",
+      "suche": [
+        "migraene",
+        "migräne",
+        "kopfschmerz",
+        "kopfschmerzen"
+      ],
+      "stufen": [
+        {
+          "text": "leichte Verlaufsform (Anfälle durchschnittlich einmal monatlich)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mittelgradige Verlaufsform (häufigere Anfälle, jeweils einen oder mehrere Tage anhaltend)",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "schwere Verlaufsform (lang andauernde Anfälle mit stark ausgeprägten Begleiterscheinungen, Anfallspausen von nur wenigen Tagen)",
+          "von": 50,
+          "bis": 60
+        }
+      ],
+      "hinweis": "je nach Häufigkeit und Dauer der Anfälle und Ausprägung der Begleiterscheinungen."
+    },
+    {
+      "id": "fazialisparese",
+      "system": "kopf",
+      "nr": "2.4",
+      "name": "Periphere Fazialisparese",
+      "suche": [
+        "fazialisparese",
+        "gesichtslaehmung",
+        "gesichtslähmung"
+      ],
+      "stufen": [
+        {
+          "text": "einseitig, kosmetisch nur wenig störende Restparese",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "einseitig, ausgeprägtere Restparese oder Kontrakturen",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "einseitig, komplette Lähmung oder ausgeprägte Kontraktur",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "beidseitig komplette Lähmung",
+          "von": 50,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "hirnschaden",
+      "system": "psyche",
+      "nr": "3.1.1",
+      "name": "Hirnschäden (Gesamtbewertung)",
+      "suche": [
+        "hirnschaden",
+        "hirnverletzung",
+        "schaedel-hirn-trauma",
+        "schädel-hirn-trauma"
+      ],
+      "stufen": [
+        {
+          "text": "Hirnschäden mit geringer Leistungsbeeinträchtigung",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "Hirnschäden mit mittelschwerer Leistungsbeeinträchtigung",
+          "von": 50,
+          "bis": 60
+        },
+        {
+          "text": "Hirnschäden mit schwerer Leistungsbeeinträchtigung",
+          "von": 70,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Wenn bei späteren Untersuchungen keine hirnorganischen Funktionsstörungen und Leistungsbeeinträchtigungen mehr zu erkennen sind beträgt der GdS dann - auch unter Einschluss geringer z. B. vegetativer Beschwerden - 20; nach offenen Hirnverletzungen nicht unter 30."
+    },
+    {
+      "id": "hirnschaden-psychische-stoerungen",
+      "system": "psyche",
+      "nr": "3.1.2",
+      "name": "Hirnschäden mit psychischen Störungen",
+      "suche": [
+        "hirnorganisches psychosyndrom",
+        "wesensaenderung",
+        "wesensänderung",
+        "demenz"
+      ],
+      "stufen": [
+        {
+          "text": "leicht (im Alltag sich gering auswirkend)",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mittelgradig (im Alltag sich deutlich auswirkend)",
+          "von": 50,
+          "bis": 60
+        },
+        {
+          "text": "schwer",
+          "von": 70,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "aphasie",
+      "system": "psyche",
+      "nr": "3.1.2",
+      "name": "Hirnschäden mit kognitiven Leistungsstörungen (z. B. Aphasie, Apraxie, Agnosie)",
+      "suche": [
+        "aphasie",
+        "sprachstoerung",
+        "sprachstörung",
+        "kognitive stoerung"
+      ],
+      "stufen": [
+        {
+          "text": "leicht (z. B. Restaphasie)",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mittelgradig (z. B. Aphasie mit deutlicher bis sehr ausgeprägter Kommunikationsstörung)",
+          "von": 50,
+          "bis": 80
+        },
+        {
+          "text": "schwer (z. B. globale Aphasie)",
+          "von": 90,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "zerebrale-laehmung",
+      "system": "psyche",
+      "nr": "3.1.2",
+      "name": "Zerebral bedingte Teillähmungen und Lähmungen",
+      "suche": [
+        "schlaganfall",
+        "hemiplegie",
+        "halbseitenlaehmung",
+        "halbseitenlähmung",
+        "hemiparese"
+      ],
+      "stufen": [
+        {
+          "text": "leichte Restlähmungen und Tonusstörungen der Gliedmaßen",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "vollständige Lähmung von Arm und Bein (Hemiplegie)",
+          "von": 100,
+          "bis": 100
+        }
+      ],
+      "hinweis": "bei ausgeprägteren Teillähmungen und vollständigen Lähmungen ist der GdS aus Vergleichen mit dem GdS bei Gliedmaßenverlusten, peripheren Lähmungen und anderen Funktionseinbußen der Gliedmaßen abzuleiten."
+    },
+    {
+      "id": "parkinson",
+      "system": "psyche",
+      "nr": "3.1.2",
+      "name": "Parkinson-Syndrom",
+      "suche": [
+        "parkinson",
+        "morbus parkinson",
+        "schuettellaehmung",
+        "schüttellähmung"
+      ],
+      "stufen": [
+        {
+          "text": "ein- oder beidseitig, geringe Störung der Bewegungsabläufe, keine Gleichgewichtsstörung, geringe Verlangsamung",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "deutliche Störung der Bewegungsabläufe, Gleichgewichtsstörungen, Unsicherheit beim Umdrehen, stärkere Verlangsamung",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "schwere Störung der Bewegungsabläufe bis zur Immobilität",
+          "von": 80,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "epilepsie",
+      "system": "psyche",
+      "nr": "3.1.2",
+      "name": "Epileptische Anfälle",
+      "suche": [
+        "epilepsie",
+        "anfallsleiden",
+        "krampfanfaelle",
+        "krampfanfälle"
+      ],
+      "stufen": [
+        {
+          "text": "sehr selten (generalisierte [große] und komplex-fokale Anfälle mit Pausen von mehr als einem Jahr; kleine und einfach-fokale Anfälle mit Pausen von Monaten)",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "selten (generalisierte [große] und komplex-fokale Anfälle mit Pausen von Monaten; kleine und einfach-fokale Anfälle mit Pausen von Wochen)",
+          "von": 50,
+          "bis": 60
+        },
+        {
+          "text": "mittlere Häufigkeit (generalisierte [große] und komplex-fokale Anfälle mit Pausen von Wochen; kleine und einfach-fokale Anfälle mit Pausen von Tagen)",
+          "von": 60,
+          "bis": 80
+        },
+        {
+          "text": "häufig (generalisierte [große] oder komplex-fokale Anfälle wöchentlich oder Serien von generalisierten Krampfanfällen, …; kleine und einfach-fokale Anfälle täglich)",
+          "von": 90,
+          "bis": 100
+        },
+        {
+          "text": "nach drei Jahren Anfallsfreiheit bei weiterer Notwendigkeit antikonvulsiver Behandlung",
+          "von": 30,
+          "bis": 30
+        }
+      ],
+      "hinweis": "Ein Anfallsleiden gilt als abgeklungen, wenn ohne Medikation drei Jahre Anfallsfreiheit besteht. Ohne nachgewiesenen Hirnschaden ist dann kein GdS mehr anzunehmen."
+    },
+    {
+      "id": "narkolepsie",
+      "system": "psyche",
+      "nr": "3.2",
+      "name": "Narkolepsie",
+      "suche": [
+        "narkolepsie",
+        "schlafkrankheit",
+        "kataplexie"
+      ],
+      "stufen": [
+        {
+          "text": "Je nach Häufigkeit, Ausprägung und Kombination der Symptome … ist im Allgemeinen ein GdS von 50 bis 80 anzusetzen.",
+          "von": 50,
+          "bis": 80
+        }
+      ]
+    },
+    {
+      "id": "hirntumor",
+      "system": "psyche",
+      "nr": "3.3",
+      "name": "Hirntumoren",
+      "suche": [
+        "hirntumor",
+        "gehirntumor",
+        "glioblastom",
+        "meningeom"
+      ],
+      "stufen": [
+        {
+          "text": "Bei Tumoren wie Oligodendrogliom, Ependymom, Astrozytom II, wenn eine vollständige Tumorentfernung nicht gesichert ist, nicht niedriger als 50",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Bei malignen Tumoren (z. B. Astrozytom III, Glioblastom, Medulloblastom) wenigstens 80",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "nach Entfernung eines malignen Kleinhirntumors des Kindesalters (z. B. Medulloblastom), während der Heilungsbewährung (im Frühstadium) bei geringer Leistungsbeeinträchtigung",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Das Abwarten einer Heilungsbewährung (von fünf Jahren) kommt in der Regel nur nach der Entfernung eines malignen Kleinhirntumors des Kindesalters (z. B. Medulloblastom) in Betracht. Nach der Entfernung gutartiger Tumoren (z. B. Meningeom, Neurinom) richtet sich der GdS allein nach dem verbliebenen Schaden.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "legasthenie",
+      "system": "psyche",
+      "nr": "3.4.2",
+      "name": "Kognitive Teilleistungsschwächen (z. B. Lese-Rechtschreib-Schwäche [Legasthenie], isolierte Rechenstörung)",
+      "suche": [
+        "legasthenie",
+        "lrs",
+        "dyskalkulie",
+        "rechenschwaeche"
+      ],
+      "stufen": [
+        {
+          "text": "leicht, ohne wesentliche Beeinträchtigung der Schulleistungen",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "sonst - auch unter Berücksichtigung von Konzentrations- und Aufmerksamkeitsstörungen - bis zum Ausgleich",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "bei besonders schwerer Ausprägung (selten)",
+          "von": 50,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "intelligenzminderung",
+      "system": "psyche",
+      "nr": "3.4.2",
+      "name": "Einschränkung der geistigen Leistungsfähigkeit (Intelligenzminderung)",
+      "suche": [
+        "intelligenzminderung",
+        "geistige behinderung",
+        "lernbehinderung",
+        "intelligenzquotient"
+      ],
+      "stufen": [
+        {
+          "text": "IQ von etwa 70 bis 60: wenn während des Schulbesuchs nur geringe Störungen … vorliegen",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "IQ von etwa 70 bis 60: wenn während des Schulbesuchs die oben genannten Störungen stark ausgeprägt sind oder mit einem Schulversagen zu rechnen ist",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "IQ unter 60: bei relativ günstiger Persönlichkeitsentwicklung und sozialer Anpassungsmöglichkeit …",
+          "von": 80,
+          "bis": 90
+        },
+        {
+          "text": "IQ unter 60: bei stärkerer Einschränkung der Eingliederungsmöglichkeiten … auf Dauer Beschäftigungsmöglichkeit nur in einer Werkstatt für Behinderte",
+          "von": 100,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Die GdS-Beurteilung der Beeinträchtigungen der geistigen Entwicklung darf nicht allein vom Ausmaß der Intelligenzminderung und von diesbezüglichen Testergebnissen ausgehen, die immer nur Teile der Behinderung zu einem bestimmten Zeitpunkt erfassen können."
+    },
+    {
+      "id": "autismus",
+      "system": "psyche",
+      "nr": "3.5.1",
+      "name": "Tief greifende Entwicklungsstörungen (insbesondere frühkindlicher Autismus, atypischer Autismus, Asperger-Syndrom)",
+      "suche": [
+        "autismus",
+        "asperger",
+        "autismus-spektrum-stoerung",
+        "autismus-spektrum"
+      ],
+      "stufen": [
+        {
+          "text": "ohne soziale Anpassungsschwierigkeiten",
+          "von": 10,
+          "bis": 20
+        },
+        {
+          "text": "mit leichten sozialen Anpassungsschwierigkeiten",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mit mittleren sozialen Anpassungsschwierigkeiten",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "mit schweren sozialen Anpassungsschwierigkeiten",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Mittlere soziale Anpassungsschwierigkeiten liegen insbesondere vor, wenn die Integration in Lebensbereiche nicht ohne umfassende Unterstützung (zum Beispiel einen Integrationshelfer als Eingliederungshilfe) möglich ist."
+    },
+    {
+      "id": "adhs",
+      "system": "psyche",
+      "nr": "3.5.2",
+      "name": "Hyperkinetische Störungen und Aufmerksamkeitsstörungen ohne Hyperaktivität",
+      "suche": [
+        "adhs",
+        "aufmerksamkeitsdefizit",
+        "hyperaktivitaet",
+        "hyperaktivität",
+        "aufmerksamkeitsstoerung"
+      ],
+      "stufen": [
+        {
+          "text": "bei sozialen Anpassungsschwierigkeiten ohne Auswirkung auf die Integrationsfähigkeit",
+          "von": 10,
+          "bis": 20
+        },
+        {
+          "text": "mit Auswirkungen auf die Integrationsfähigkeit in mehreren Lebensbereichen … oder wenn die Betroffenen einer über das dem jeweiligen Alter entsprechende Maß hinausgehenden Beaufsichtigung bedürfen",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mit Auswirkungen, die die Integration in Lebensbereiche nicht ohne umfassende Unterstützung oder umfassende Beaufsichtigung ermöglichen",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "mit Auswirkungen, die die Integration in Lebensbereiche auch mit umfassender Unterstützung nicht ermöglichen",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Ohne soziale Anpassungsschwierigkeiten liegt keine Teilhabebeeinträchtigung vor. Ab dem Alter von 25 Jahren beträgt der GdS regelhaft nicht mehr als 50."
+    },
+    {
+      "id": "schizophrenie",
+      "system": "psyche",
+      "nr": "3.6",
+      "name": "Schizophrene Psychosen",
+      "suche": [
+        "schizophrenie",
+        "psychose",
+        "wahn"
+      ],
+      "stufen": [
+        {
+          "text": "Langdauernde (über ein halbes Jahr anhaltende) Psychose im floriden Stadium je nach Einbuße beruflicher und sozialer Anpassungsmöglichkeiten",
+          "von": 50,
+          "bis": 100
+        },
+        {
+          "text": "Schizophrener Residualzustand ohne soziale Anpassungsschwierigkeiten",
+          "von": 10,
+          "bis": 20
+        },
+        {
+          "text": "Schizophrener Residualzustand mit leichten sozialen Anpassungsschwierigkeiten",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "Schizophrener Residualzustand mit mittelgradigen sozialen Anpassungsschwierigkeiten",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "Schizophrener Residualzustand mit schweren sozialen Anpassungsschwierigkeiten",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Nach dem Abklingen lang dauernder psychotischer Episoden ist eine Heilungsbewährung von zwei Jahren abzuwarten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "affektive-psychose",
+      "system": "psyche",
+      "nr": "3.6",
+      "name": "Affektive Psychosen (z. B. bipolare Störung)",
+      "suche": [
+        "bipolar",
+        "manisch-depressiv",
+        "manie",
+        "affektive psychose"
+      ],
+      "stufen": [
+        {
+          "text": "Affektive Psychose bei 1 bis 2 Phasen im Jahr von mehrwöchiger Dauer je nach Art und Ausprägung",
+          "von": 30,
+          "bis": 50
+        },
+        {
+          "text": "bei häufigeren Phasen von mehrwöchiger Dauer",
+          "von": 60,
+          "bis": 100
+        },
+        {
+          "text": "Heilungsbewährung (zwei Jahre), wenn bereits mehrere manische oder manische und depressive Phasen vorangegangen sind",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung (zwei Jahre), sonst",
+          "von": 30,
+          "bis": 30
+        }
+      ],
+      "hinweis": "Nach dem Abklingen lang dauernder psychotischer Episoden ist eine Heilungsbewährung von zwei Jahren abzuwarten. Eine Heilungsbewährung braucht nicht abgewartet zu werden, wenn eine monopolar verlaufene depressive Phase vorgelegen hat, die als erste Krankheitsphase oder erst mehr als zehn Jahre nach einer früheren Krankheitsphase aufgetreten ist.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "depression",
+      "system": "psyche",
+      "nr": "3.7",
+      "name": "Neurosen, Persönlichkeitsstörungen, Folgen psychischer Traumen (z. B. Depression, Angststörung, PTBS)",
+      "suche": [
+        "depression",
+        "angststoerung",
+        "angststörung",
+        "ptbs",
+        "burnout",
+        "persoenlichkeitsstoerung"
+      ],
+      "stufen": [
+        {
+          "text": "Leichtere psychovegetative oder psychische Störungen",
+          "von": 0,
+          "bis": 20
+        },
+        {
+          "text": "Stärker behindernde Störungen mit wesentlicher Einschränkung der Erlebnis- und Gestaltungsfähigkeit (z. B. ausgeprägtere depressive, hypochondrische, asthenische oder phobische Störungen, Entwicklungen mit Krankheitswert, somatoforme Störungen)",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "Schwere Störungen (z. B. schwere Zwangskrankheit) mit mittelgradigen sozialen Anpassungsschwierigkeiten",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "Schwere Störungen mit schweren sozialen Anpassungsschwierigkeiten",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Abnorme Gewohnheiten und Störungen der Impulskontrolle sind nach Teil B Nummer 3.7 zu bewerten."
+    },
+    {
+      "id": "sucht",
+      "system": "psyche",
+      "nr": "3.8",
+      "name": "Psychische Störungen und Verhaltensstörungen durch psychotrope Substanzen (Sucht)",
+      "suche": [
+        "sucht",
+        "alkoholismus",
+        "alkoholabhaengigkeit",
+        "alkoholabhängigkeit",
+        "drogen"
+      ],
+      "stufen": [
+        {
+          "text": "Bei schädlichem Gebrauch von psychotropen Substanzen mit leichteren psychischen Störungen",
+          "von": 0,
+          "bis": 20
+        },
+        {
+          "text": "Bei Abhängigkeit mit leichten sozialen Anpassungsschwierigkeiten",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "Bei Abhängigkeit mit mittleren sozialen Anpassungsschwierigkeiten",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "Bei Abhängigkeit mit schweren sozialen Anpassungsschwierigkeiten",
+          "von": 80,
+          "bis": 100
+        },
+        {
+          "text": "nach erreichter Abstinenz (zuvor GdS von mindestens 50), während der Heilungsbewährung von zwei Jahren",
+          "von": 30,
+          "bis": 30
+        }
+      ],
+      "hinweis": "Ist im Fall einer Abhängigkeit, die zuvor mit einem GdS von mindestens 50 zu bewerten war, Abstinenz erreicht, muss eine Heilungsbewährung von zwei Jahren ab dem Zeitpunkt des Beginns der Abstinenz abgewartet werden. Die Abhängigkeit von Koffein oder Tabak sowie von Koffein und Tabak bedingt für sich allein in der Regel keine Teilhabebeeinträchtigung.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "rueckenmark",
+      "system": "psyche",
+      "nr": "3.9",
+      "name": "Rückenmarkschäden (Querschnittlähmung)",
+      "suche": [
+        "querschnittlaehmung",
+        "querschnittlähmung",
+        "rueckenmark",
+        "rückenmark",
+        "paraplegie",
+        "tetraplegie"
+      ],
+      "stufen": [
+        {
+          "text": "Unvollständige, leichte Halsmarkschädigung mit beidseits geringen motorischen und sensiblen Ausfällen, ohne Störungen der Blasen- und Mastdarmfunktion",
+          "von": 30,
+          "bis": 60
+        },
+        {
+          "text": "Unvollständige Brustmark-, Lendenmark- oder Kaudaschädigung mit Teillähmung beider Beine, ohne Störungen der Blasen- und Mastdarmfunktion",
+          "von": 30,
+          "bis": 60
+        },
+        {
+          "text": "Unvollständige Brustmark-, Lendenmark- oder Kaudaschädigung mit Teillähmung beider Beine und Störungen der Blasen- und/oder Mastdarmfunktion",
+          "von": 60,
+          "bis": 80
+        },
+        {
+          "text": "Unvollständige Halsmarkschädigung mit gewichtigen Teillähmungen beider Arme und Beine und Störungen der Blasen- und/oder Mastdarmfunktion",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "Vollständige Halsmarkschädigung mit vollständiger Lähmung beider Arme und Beine und Störungen der Blasen- und/ oder Mastdarmfunktion",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "Vollständige Brustmark-, Lendenmark-, oder Kaudaschädigung mit vollständiger Lähmung der Beine und Störungen der Blasen und/oder Mastdarmfunktion",
+          "von": 100,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "multiple-sklerose",
+      "system": "psyche",
+      "nr": "3.10",
+      "name": "Multiple Sklerose",
+      "suche": [
+        "multiple sklerose",
+        "ms-schub",
+        "encephalomyelitis disseminata"
+      ],
+      "stufen": [],
+      "hinweis": "Der GdS richtet sich vor allem nach den zerebralen und spinalen Ausfallserscheinungen. Zusätzlich ist die aus dem klinischen Verlauf sich ergebende Krankheitsaktivität zu berücksichtigen."
+    },
+    {
+      "id": "polyneuropathie",
+      "system": "psyche",
+      "nr": "3.11",
+      "name": "Polyneuropathien",
+      "suche": [
+        "polyneuropathie",
+        "nervenschaden",
+        "diabetische neuropathie",
+        "taubheitsgefuehl"
+      ],
+      "stufen": [],
+      "hinweis": "Der GdS motorischer Ausfälle ist in Analogie zu den peripheren Nervenschäden einzuschätzen. Bei den sensiblen Störungen und Schmerzen ist zu berücksichtigen, dass schon leichte Störungen zu Beeinträchtigungen - z. B. bei Feinbewegungen - führen können."
+    },
+    {
+      "id": "sehbehinderung",
+      "system": "augen",
+      "nr": "4.3",
+      "name": "Herabsetzung der Sehschärfe (MdE-Tabelle der DOG)",
+      "suche": [
+        "sehbehinderung",
+        "sehschaerfe",
+        "sehschärfe",
+        "blindheit",
+        "blind",
+        "visus"
+      ],
+      "stufen": [
+        {
+          "text": "Sehschärfe 1,0 auf einem Auge, 0 auf dem anderen Auge (Tabellenwert *25)",
+          "von": 25,
+          "bis": 25
+        },
+        {
+          "text": "Sehschärfe 0,5 auf beiden Augen",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "Sehschärfe 0,4 auf beiden Augen",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "Sehschärfe 0,32 auf beiden Augen",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Sehschärfe 0,2 auf beiden Augen",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Sehschärfe 0,1 auf beiden Augen",
+          "von": 70,
+          "bis": 70
+        },
+        {
+          "text": "Sehschärfe 0,05 (1/20) auf beiden Augen",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "Sehschärfe 0 auf beiden Augen",
+          "von": 100,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Für die Beurteilung ist in erster Linie die korrigierte Sehschärfe maßgebend; daneben sind u. a. Ausfälle des Gesichtsfeldes und des Blickfeldes zu berücksichtigen. Die Grundlage für die GdS-Beurteilung bei Herabsetzung der Sehschärfe bildet die „MdE-Tabelle der DOG\"."
+    },
+    {
+      "id": "linsenverlust",
+      "system": "augen",
+      "nr": "4.2",
+      "name": "Linsenverlust (Kunstlinse, Kontaktlinse)",
+      "suche": [
+        "linsenverlust",
+        "grauer star",
+        "katarakt",
+        "kunstlinse"
+      ],
+      "stufen": [
+        {
+          "text": "Linsenverlust eines Auges, Sehschärfe 0,4 und mehr",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "Linsenverlust eines Auges, Sehschärfe 0,1 bis weniger als 0,4",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "Linsenverlust eines Auges, Sehschärfe weniger als 0,1",
+          "von": 25,
+          "bis": 30
+        }
+      ],
+      "hinweis": "Linsenverlust beider Augen: Beträgt der sich aus der Sehschärfe für beide Augen ergebende GdS nicht mehr als 60, ist dieser um 10 zu erhöhen."
+    },
+    {
+      "id": "doppelbilder",
+      "system": "augen",
+      "nr": "4.4",
+      "name": "Augenmuskellähmungen, Strabismus",
+      "suche": [
+        "doppelbilder",
+        "schielen",
+        "strabismus",
+        "augenmuskellaehmung"
+      ],
+      "stufen": [
+        {
+          "text": "wenn ein Auge wegen der Doppelbilder vom Sehen ausgeschlossen werden muss",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "bei einseitiger Bildunterdrückung durch Gewöhnung (Exklusion) und entsprechendem Verschwinden der Doppelbilder",
+          "von": 10,
+          "bis": 10
+        }
+      ],
+      "hinweis": "Einschränkungen der Sehschärfe (z. B. Amblyopie) oder eine erheblich entstellende Wirkung sind ggf. zusätzlich zu berücksichtigen."
+    },
+    {
+      "id": "gesichtsfeldausfall",
+      "system": "augen",
+      "nr": "4.5",
+      "name": "Gesichtsfeldausfälle",
+      "suche": [
+        "gesichtsfeld",
+        "hemianopsie",
+        "glaukom",
+        "gruener star",
+        "tunnelblick"
+      ],
+      "stufen": [
+        {
+          "text": "Homonyme Hemianopsie",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "Bitemporale Hemianopsie",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Vollständiger Ausfall beider unterer Gesichtsfeldhälften",
+          "von": 60,
+          "bis": 60
+        },
+        {
+          "text": "Allseitige Einengung binokular auf 50° Abstand vom Zentrum",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "Allseitige Einengung binokular auf 30° Abstand vom Zentrum",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Allseitige Einengung binokular auf 10° Abstand vom Zentrum",
+          "von": 70,
+          "bis": 70
+        },
+        {
+          "text": "Allseitige Einengung binokular auf 5° Abstand vom Zentrum",
+          "von": 100,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "augentumor",
+      "system": "augen",
+      "nr": "4.8",
+      "name": "Maligner Augentumor",
+      "suche": [
+        "augentumor",
+        "augenkrebs",
+        "aderhautmelanom",
+        "retinoblastom"
+      ],
+      "stufen": [
+        {
+          "text": "bei Tumorbegrenzung auf den Augapfel (auch bei Augapfelentfernung)",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "sonst wenigstens 80",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Augentumors ist in den ersten fünf Jahren eine Heilungsbewährung abzuwarten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "taubheit-kindheit",
+      "system": "ohren",
+      "nr": "5.1",
+      "name": "Angeborene oder in der Kindheit erworbene Taubheit mit Sprachstörungen",
+      "suche": [
+        "gehoerlos",
+        "gehörlos",
+        "taubheit",
+        "taub"
+      ],
+      "stufen": [
+        {
+          "text": "angeboren oder bis zum 7. Lebensjahr erworben (schwere Störung des Spracherwerbs, in der Regel lebenslang)",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "später erworben (im 8. bis 18. Lebensjahr) mit schweren Sprachstörungen (schwer verständliche Lautsprache, geringer Sprachschatz)",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "sonst je nach Sprachstörung",
+          "von": 80,
+          "bis": 90
+        }
+      ]
+    },
+    {
+      "id": "schwerhoerigkeit",
+      "system": "ohren",
+      "nr": "5.2",
+      "name": "Schwerhörigkeit (Hörverlust)",
+      "suche": [
+        "schwerhoerigkeit",
+        "schwerhörigkeit",
+        "hoerverlust",
+        "hörverlust",
+        "hoergeraet",
+        "hörgerät"
+      ],
+      "stufen": [
+        {
+          "text": "Taubheit auf einem Ohr, anderes Ohr normalhörig (Tabelle D)",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "Taubheit auf einem Ohr, geringgradige Schwerhörigkeit auf dem anderen (Tabelle D)",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Hochgradige Schwerhörigkeit auf einem Ohr, anderes Ohr normalhörig (Tabelle D)",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "Geringgradige Schwerhörigkeit beidseits (Tabelle D)",
+          "von": 15,
+          "bis": 15
+        },
+        {
+          "text": "Mittelgradige Schwerhörigkeit beidseits (Tabelle D)",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Hochgradige Schwerhörigkeit beidseits (Tabelle D)",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "An Taubheit grenzende Schwerhörigkeit beidseits (Tabelle D)",
+          "von": 70,
+          "bis": 70
+        },
+        {
+          "text": "Taubheit beidseits (Tabelle D)",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Maßgebend für die Bewertung des GdS bei Hörstörungen ist die Herabsetzung des Sprachgehörs, deren Umfang durch Prüfung ohne Hörhilfen zu bestimmen ist. Nach Durchführung eines Ton- und Sprachaudiogramms ist der Prozentsatz des Hörverlustes aus entsprechenden Tabellen abzuleiten. Die in der GdS-Tabelle enthaltenen Werte zur Schwerhörigkeit berücksichtigen die Möglichkeit eines Teilausgleichs durch Hörhilfen mit."
+    },
+    {
+      "id": "tinnitus",
+      "system": "ohren",
+      "nr": "5.3",
+      "name": "Ohrgeräusche (Tinnitus)",
+      "suche": [
+        "tinnitus",
+        "ohrgeraeusche",
+        "ohrgeräusche",
+        "ohrensausen"
+      ],
+      "stufen": [
+        {
+          "text": "ohne nennenswerte psychische Begleiterscheinungen",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mit erheblichen psychovegetativen Begleiterscheinungen",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "mit wesentlicher Einschränkung der Erlebnis- und Gestaltungsfähigkeit (z. B. ausgeprägte depressive Störungen)",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mit schweren psychischen Störungen und sozialen Anpassungsschwierigkeiten mindestens 50",
+          "von": 50,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "gleichgewichtsstoerung",
+      "system": "ohren",
+      "nr": "5.3",
+      "name": "Gleichgewichtsstörungen",
+      "suche": [
+        "schwindel",
+        "gleichgewichtsstoerung",
+        "gleichgewichtsstörung",
+        "vertigo"
+      ],
+      "stufen": [
+        {
+          "text": "ohne wesentliche Folgen (beschwerdefrei, allenfalls Gefühl der Unsicherheit bei alltäglichen Belastungen …)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mit leichten Folgen (leichte Unsicherheit, geringe Schwindelerscheinungen wie Schwanken, Stolpern, Ausfallsschritte bei alltäglichen Belastungen …)",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "mit mittelgradigen Folgen (stärkere Unsicherheit, Schwindelerscheinungen mit Fallneigung bereits bei alltäglichen Belastungen …)",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mit schweren Folgen (heftiger Schwindel, erhebliche Unsicherheit und Schwierigkeiten bereits beim Gehen und Stehen im Hellen und bei anderen alltäglichen Belastungen, teilweise Gehhilfe erforderlich)",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "bei Unfähigkeit, ohne Unterstützung zu gehen oder zu stehen",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Normabweichungen in den apparativ erhobenen neurootologischen Untersuchungsbefunden bedingen für sich allein noch keinen GdS"
+    },
+    {
+      "id": "meniere",
+      "system": "ohren",
+      "nr": "5.3",
+      "name": "Menière-Krankheit",
+      "suche": [
+        "meniere",
+        "menière",
+        "morbus meniere",
+        "drehschwindel"
+      ],
+      "stufen": [
+        {
+          "text": "ein bis zwei Anfälle im Jahr",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "häufigere Anfälle, je nach Schweregrad",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "mehrmals monatlich schwere Anfälle",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Bleibende Hörstörungen und Ohrgeräusche (Tinnitus) sind zusätzlich zu bewerten."
+    },
+    {
+      "id": "nebenhoehlenentzuendung",
+      "system": "nase-mund",
+      "nr": "6.2",
+      "name": "Chronische Nebenhöhlenentzündung",
+      "suche": [
+        "sinusitis",
+        "nebenhoehlenentzuendung",
+        "nebenhöhlenentzündung",
+        "polypen"
+      ],
+      "stufen": [
+        {
+          "text": "leichteren Grades (ohne wesentliche Neben- und Folgeerscheinungen)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "schweren Grades (ständige erhebliche Eiterabsonderung, Trigeminusreizerscheinungen, Polypenbildung)",
+          "von": 20,
+          "bis": 40
+        }
+      ]
+    },
+    {
+      "id": "geruchsverlust",
+      "system": "nase-mund",
+      "nr": "6.3",
+      "name": "Verlust des Riech- oder Geschmackssinns",
+      "suche": [
+        "geruchsverlust",
+        "anosmie",
+        "geschmacksverlust",
+        "riechstoerung"
+      ],
+      "stufen": [
+        {
+          "text": "Völliger Verlust des Riechvermögens mit der damit verbundenen Beeinträchtigung der Geschmackswahrnehmung",
+          "von": 15,
+          "bis": 15
+        },
+        {
+          "text": "Völliger Verlust des Geschmackssinns",
+          "von": 10,
+          "bis": 10
+        }
+      ]
+    },
+    {
+      "id": "kehlkopf",
+      "system": "nase-mund",
+      "nr": "7.8",
+      "name": "Verlust oder Teilverlust des Kehlkopfes (auch Kehlkopfkrebs)",
+      "suche": [
+        "kehlkopfkrebs",
+        "kehlkopf",
+        "laryngektomie",
+        "larynxkarzinom"
+      ],
+      "stufen": [
+        {
+          "text": "Verlust des Kehlkopfes bei guter Ersatzstimme und ohne Begleiterscheinungen …",
+          "von": 70,
+          "bis": 70
+        },
+        {
+          "text": "Verlust des Kehlkopfes in allen anderen Fällen",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "Verlust des Kehlkopfes wegen eines malignen Tumors, während der Heilungsbewährung (fünf Jahre)",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "Teilverlust des Kehlkopfes je nach Sprechfähigkeit und Beeinträchtigung der körperlichen Leistungsfähigkeit",
+          "von": 20,
+          "bis": 50
+        },
+        {
+          "text": "Teilverlust wegen eines malignen Tumors, Heilungsbewährung: bei Geschwulstentfernung im Frühstadium (T1 N0 M0)",
+          "von": 50,
+          "bis": 60
+        },
+        {
+          "text": "Teilverlust wegen eines malignen Tumors, Heilungsbewährung: sonst",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Bei Verlust des Kehlkopfes wegen eines malignen Tumors ist in den ersten fünf Jahren eine Heilungsbewährung abzuwarten; GdB bzw. GdS während dieser Zeit 100",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "stimmstoerung",
+      "system": "nase-mund",
+      "nr": "7.10",
+      "name": "Funktionelle und organische Stimmstörungen (z. B. Stimmbandlähmung)",
+      "suche": [
+        "stimmstoerung",
+        "stimmstörung",
+        "heiserkeit",
+        "stimmbandlaehmung"
+      ],
+      "stufen": [
+        {
+          "text": "mit geringer belastungsabhängiger Heiserkeit",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mit dauernder Heiserkeit",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "nur Flüsterstimme",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "mit völliger Stimmlosigkeit",
+          "von": 50,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "stottern",
+      "system": "nase-mund",
+      "nr": "7.11",
+      "name": "Stottern",
+      "suche": [
+        "stottern",
+        "redeflussstoerung",
+        "redeflussstörung"
+      ],
+      "stufen": [
+        {
+          "text": "leicht",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mittelgradig, situationsunabhängig",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "schwer, auffällige Mitbewegungen",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mit unverständlicher Sprache",
+          "von": 50,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "schluckstoerung",
+      "system": "nase-mund",
+      "nr": "7.7",
+      "name": "Schluckstörungen",
+      "suche": [
+        "schluckstoerung",
+        "schluckstörung",
+        "dysphagie"
+      ],
+      "stufen": [
+        {
+          "text": "ohne wesentliche Behinderung der Nahrungsaufnahme je nach Beschwerden",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mit erheblicher Behinderung der Nahrungsaufnahme je nach Auswirkung (Einschränkung der Kostform, verlängerte Essdauer)",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "mit häufiger Aspiration und erheblicher Beeinträchtigung des Kräfte- und Ernährungszustandes",
+          "von": 50,
+          "bis": 70
+        }
+      ]
+    },
+    {
+      "id": "lippen-kiefer-gaumenspalte",
+      "system": "nase-mund",
+      "nr": "7.6",
+      "name": "Lippen-, Kiefer-, Gaumen- und Segelspalten bei Kindern",
+      "suche": [
+        "lippen-kiefer-gaumenspalte",
+        "lkg-spalte",
+        "gaumenspalte",
+        "hasenscharte"
+      ],
+      "stufen": [
+        {
+          "text": "Isolierte voll ausgebildete Lippenspalte bis zum Abschluss der Behandlung …",
+          "von": 30,
+          "bis": 50
+        },
+        {
+          "text": "Lippen-Kieferspalte bis zum Abschluss der Erstbehandlung (in der Regel ein Jahr nach der Operation)",
+          "von": 60,
+          "bis": 70
+        },
+        {
+          "text": "Lippen-Kiefer-Gaumenspalte bis zum Abschluss der Erstbehandlung (in der Regel ein Jahr nach der Operation) …",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "Lippen-Kieferspalte oder Lippen-Kiefer-Gaumenspalte bis zum Verschluss der Kieferspalte",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Isolierte Segelspalte, submuköse Gaumenspalte bis zum Abschluss der Behandlung je nach Ausmaß der Artikulationsstörung",
+          "von": 0,
+          "bis": 30
+        }
+      ],
+      "hinweis": "Nach Abschluss der Behandlung richtet sich der GdS immer nach der verbliebenen Gesundheitsstörung."
+    },
+    {
+      "id": "lungenfunktion",
+      "system": "lunge",
+      "nr": "8.3",
+      "name": "Krankheiten der Atmungsorgane mit dauernder Einschränkung der Lungenfunktion",
+      "suche": [
+        "lungenfunktion",
+        "atemnot",
+        "lungenfibrose",
+        "lungenemphysem",
+        "copd"
+      ],
+      "stufen": [
+        {
+          "text": "geringen Grades (das gewöhnliche Maß übersteigende Atemnot bei mittelschwerer Belastung …; Messwerte der Lungenfunktionsprüfung bis zu 1/3 niedriger als die Sollwerte, Blutgaswerte im Normbereich)",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "mittleren Grades (das gewöhnliche Maß übersteigende Atemnot bereits bei alltäglicher leichter Belastung …; Messwerte bis zu 2/3 niedriger als die Sollwerte, respiratorische Partialinsuffizienz)",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "schweren Grades (Atemnot bereits bei leichtester Belastung oder in Ruhe; Messwerte um mehr als 2/3 niedriger als die Sollwerte, respiratorische Globalinsuffizienz)",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Bei chronischen Krankheiten der Bronchien und des Lungenparenchyms sowie bei Brustfellschwarten richtet sich der GdS vor allem nach der klinischen Symptomatik mit ihren Auswirkungen auf den Allgemeinzustand."
+    },
+    {
+      "id": "chronische-bronchitis",
+      "system": "lunge",
+      "nr": "8.2",
+      "name": "Chronische Bronchitis, Bronchiektasen",
+      "suche": [
+        "chronische bronchitis",
+        "copd",
+        "bronchiektasen",
+        "raucherhusten"
+      ],
+      "stufen": [
+        {
+          "text": "ohne dauernde Einschränkung der Lungenfunktion, leichte Form (symptomfreie Intervalle über mehrere Monate, wenig Husten, geringer Auswurf)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "schwere Form (fast kontinuierlich ausgiebiger Husten und Auswurf, häufige akute Schübe)",
+          "von": 20,
+          "bis": 30
+        }
+      ],
+      "hinweis": "Die Werte gelten für die Krankheiten als eigenständige Krankheiten - ohne dauernde Einschränkung der Lungenfunktion; mit dauernder Einschränkung der Lungenfunktion siehe Teil B Nummer 8.3."
+    },
+    {
+      "id": "asthma",
+      "system": "lunge",
+      "nr": "8.5",
+      "name": "Bronchialasthma ohne dauernde Einschränkung der Lungenfunktion",
+      "suche": [
+        "asthma",
+        "bronchialasthma",
+        "allergisches asthma"
+      ],
+      "stufen": [
+        {
+          "text": "Hyperreagibilität mit seltenen (saisonalen) und/oder leichten Anfällen",
+          "von": 0,
+          "bis": 20
+        },
+        {
+          "text": "Hyperreagibilität mit häufigen (mehrmals pro Monat) und/oder schweren Anfällen",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "Hyperreagibilität mit Serien schwerer Anfälle",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Eine dauernde Einschränkung der Lungenfunktion ist zusätzlich zu berücksichtigen."
+    },
+    {
+      "id": "asthma-kinder",
+      "system": "lunge",
+      "nr": "8.6",
+      "name": "Bronchialasthma bei Kindern",
+      "suche": [
+        "asthma kind",
+        "kinderasthma",
+        "asthma bronchiale kinder"
+      ],
+      "stufen": [
+        {
+          "text": "geringen Grades (Hyperreagibilität mit seltenen (saisonalen) und/oder leichten Anfällen, keine dauernde Einschränkung der Atemfunktion, nicht mehr als sechs Wochen Bronchitis im Jahr)",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "mittleren Grades (Hyperreagibilität mit häufigeren und/oder schweren Anfällen, leichte bis mittelgradige ständige Einschränkung der Atemfunktion, etwa 2 bis 3 Monate kontinuierliche Bronchitis im Jahr)",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "schweren Grades (Hyperreagibilität mit Serien schwerer Anfälle, schwere Beeinträchtigung der Atemfunktion, mehr als 3 Monate kontinuierliche Bronchitis im Jahr)",
+          "von": 80,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "schlafapnoe",
+      "system": "lunge",
+      "nr": "8.7",
+      "name": "Schlaf-Apnoe-Syndrom",
+      "suche": [
+        "schlafapnoe",
+        "schlaf-apnoe",
+        "cpap",
+        "atemaussetzer"
+      ],
+      "stufen": [
+        {
+          "text": "ohne Notwendigkeit einer kontinuierlichen nasalen Überdruckbeatmung",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mit Notwendigkeit einer kontinuierlichen nasalen Überdruckbeatmung",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "bei nicht durchführbarer nasaler Überdruckbeatmung",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Folgeerscheinungen oder Komplikationen (z. B. Herzrhythmusstörungen, Hypertonie, Cor pulmonale) sind zusätzlich zu berücksichtigen."
+    },
+    {
+      "id": "lungenkrebs",
+      "system": "lunge",
+      "nr": "8.4",
+      "name": "Maligner Lungentumor, Bronchialtumor",
+      "suche": [
+        "lungenkrebs",
+        "bronchialkarzinom",
+        "lungenkarzinom",
+        "lungentumor"
+      ],
+      "stufen": [
+        {
+          "text": "GdS während dieser Zeit wenigstens 80",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "bei Einschränkung der Lungenfunktion mittleren bis schweren Grades",
+          "von": 90,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Lungentumors oder eines Bronchialtumors ist in den ersten fünf Jahren eine Heilungsbewährung abzuwarten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "lungentransplantation",
+      "system": "lunge",
+      "nr": "8.4",
+      "name": "Lungentransplantation",
+      "suche": [
+        "lungentransplantation",
+        "lungentransplantiert",
+        "transplantation lunge"
+      ],
+      "stufen": [
+        {
+          "text": "während der Heilungsbewährung (im Allgemeinen zwei Jahre)",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "danach selbst bei günstigem Heilungsverlauf nicht niedriger als 70",
+          "von": 70,
+          "bis": 70
+        }
+      ],
+      "hinweis": "Nach einer Lungentransplantation ist eine Heilungsbewährung abzuwarten (im Allgemeinen zwei Jahre); während dieser Zeit ist ein GdS von 100 anzusetzen.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "sarkoidose",
+      "system": "lunge",
+      "nr": "8.9",
+      "name": "Sarkoidose",
+      "suche": [
+        "sarkoidose",
+        "morbus boeck"
+      ],
+      "stufen": [
+        {
+          "text": "Bei chronischem Verlauf mit klinischen Aktivitätszeichen und Auswirkungen auf den Allgemeinzustand ohne Funktionseinschränkung von betroffenen Organen",
+          "von": 30,
+          "bis": 30
+        }
+      ],
+      "hinweis": "Der GdS richtet sich nach der Aktivität mit ihren Auswirkungen auf den Allgemeinzustand und nach den Auswirkungen an den verschiedenen Organen."
+    },
+    {
+      "id": "herzinsuffizienz",
+      "system": "herz",
+      "nr": "9.1.1",
+      "name": "Einschränkung der Herzleistung (Herzinsuffizienz)",
+      "suche": [
+        "herzinsuffizienz",
+        "herzschwaeche",
+        "herzschwäche",
+        "herzleistung",
+        "kardiomyopathie"
+      ],
+      "stufen": [
+        {
+          "text": "keine wesentliche Leistungsbeeinträchtigung (keine Insuffizienzerscheinungen wie Atemnot, anginöse Schmerzen) selbst bei gewohnter stärkerer Belastung …",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "Leistungsbeeinträchtigung bei mittelschwerer Belastung (z. B. forsches Gehen [5-6 km/h], mittelschwere körperliche Arbeit), … Ergometerbelastung mit 75 Watt (wenigstens 2 Minuten) …",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "Leistungsbeeinträchtigung bereits bei alltäglicher leichter Belastung (z. B. Spazierengehen [3-4 km/h], Treppensteigen bis zu einem Stockwerk, leichte körperliche Arbeit), … Ergometerbelastung mit 50 Watt (wenigstens 2 Minuten) …",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "mit gelegentlich auftretenden, vorübergehend schweren Dekompensationserscheinungen",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "Leistungsbeeinträchtigung bereits in Ruhe (Ruheinsuffizienz, z. B. auch bei fixierter pulmonaler Hypertonie) …",
+          "von": 90,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Elektrokardiographische Abweichungen allein gestatten keinen Rückschluss auf die Leistungseinbuße."
+    },
+    {
+      "id": "herzinfarkt",
+      "system": "herz",
+      "nr": "9.1.3",
+      "name": "Herzinfarkt, koronare Herzkrankheit",
+      "suche": [
+        "herzinfarkt",
+        "khk",
+        "koronare herzkrankheit",
+        "stent",
+        "bypass"
+      ],
+      "stufen": [],
+      "hinweis": "Nach einem Herzinfarkt ist der GdS von der bleibenden Leistungsbeeinträchtigung abhängig. Nach operativen und anderen therapeutischen Eingriffen am Herzen ist der GdS von der bleibenden Leistungsbeeinträchtigung abhängig."
+    },
+    {
+      "id": "herzklappe",
+      "system": "herz",
+      "nr": "9.1.2",
+      "name": "Herzklappenprothese",
+      "suche": [
+        "herzklappe",
+        "herzklappenprothese",
+        "klappenersatz",
+        "aortenklappe"
+      ],
+      "stufen": [
+        {
+          "text": "Bei Herzklappenprothesen ist der GdS nicht niedriger als 30 zu bewerten",
+          "von": 30,
+          "bis": 30
+        }
+      ],
+      "hinweis": "dieser Wert schließt eine Dauerbehandlung mit Antikoagulantien ein."
+    },
+    {
+      "id": "herztransplantation",
+      "system": "herz",
+      "nr": "9.1.4",
+      "name": "Herztransplantation",
+      "suche": [
+        "herztransplantation",
+        "spenderherz",
+        "transplantation herz"
+      ],
+      "stufen": [
+        {
+          "text": "während der Heilungsbewährung (im Allgemeinen zwei Jahre)",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "danach selbst bei günstigem Heilungsverlauf nicht niedriger als 70",
+          "von": 70,
+          "bis": 70
+        }
+      ],
+      "hinweis": "Nach Herztransplantation ist eine Heilungsbewährung abzuwarten (im Allgemeinen zwei Jahre); während dieser Zeit ist ein GdS von 100 anzusetzen.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "herzrhythmusstoerung",
+      "system": "herz",
+      "nr": "9.1.6",
+      "name": "Rhythmusstörungen",
+      "suche": [
+        "herzrhythmusstoerung",
+        "herzrhythmusstörung",
+        "vorhofflimmern",
+        "tachykardie",
+        "arrhythmie"
+      ],
+      "stufen": [
+        {
+          "text": "Anfallsweise auftretende hämodynamisch relevante Rhythmusstörungen (z. B. paroxysmale Tachykardien) … bei fehlender andauernder Leistungsbeeinträchtigung des Herzens",
+          "von": 10,
+          "bis": 30
+        }
+      ],
+      "hinweis": "Die Beurteilung des GdS richtet sich vor allem nach der Leistungsbeeinträchtigung des Herzens. Bei bestehender andauernder Leistungsbeeinträchtigung des Herzens sind sie entsprechend zusätzlich zu bewerten."
+    },
+    {
+      "id": "herzschrittmacher",
+      "system": "herz",
+      "nr": "9.1.6",
+      "name": "Herzschrittmacher",
+      "suche": [
+        "herzschrittmacher",
+        "schrittmacher",
+        "pacemaker"
+      ],
+      "stufen": [
+        {
+          "text": "nach Implantation eines Herzschrittmachers",
+          "von": 10,
+          "bis": 10
+        }
+      ]
+    },
+    {
+      "id": "defibrillator",
+      "system": "herz",
+      "nr": "9.1.6",
+      "name": "Implantierter Kardioverter-Defibrillator (ICD)",
+      "suche": [
+        "defibrillator",
+        "icd",
+        "kardioverter"
+      ],
+      "stufen": [
+        {
+          "text": "nach Implantation eines Kardioverter-Defibrillators wenigstens 50",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "bei ventrikulären tachykarden Rhythmusstörungen im Kindesalter ohne Implantation eines Kardioverter-Defibrillators wenigstens 60",
+          "von": 60,
+          "bis": 60
+        }
+      ]
+    },
+    {
+      "id": "bluthochdruck",
+      "system": "herz",
+      "nr": "9.3",
+      "name": "Hypertonie (Bluthochdruck)",
+      "suche": [
+        "bluthochdruck",
+        "hypertonie",
+        "hochdruck",
+        "blutdruck"
+      ],
+      "stufen": [
+        {
+          "text": "leichte Form: keine oder geringe Leistungsbeeinträchtigung (höchstens leichte Augenhintergrundveränderungen)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mittelschwere Form: mit Organbeteiligung leichten bis mittleren Grades …, diastolischer Blutdruck mehrfach über 100 mm Hg trotz Behandlung, je nach Leistungsbeeinträchtigung",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "schwere Form: mit Beteiligung mehrerer Organe (schwere Augenhintergrundveränderungen und Beeinträchtigung der Herzfunktion, der Nierenfunktion und/oder der Hirndurchblutung) je nach Art und Ausmaß der Leistungsbeeinträchtigung",
+          "von": 50,
+          "bis": 100
+        },
+        {
+          "text": "maligne Form: diastolischer Blutdruck konstant über 130 mm Hg; Fundus hypertonicus III-IV …",
+          "von": 100,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "pavk",
+      "system": "herz",
+      "nr": "9.2.1",
+      "name": "Arterielle Verschlusskrankheiten an den Beinen (pAVK)",
+      "suche": [
+        "pavk",
+        "schaufensterkrankheit",
+        "durchblutungsstoerung",
+        "claudicatio"
+      ],
+      "stufen": [
+        {
+          "text": "mit ausreichender Restdurchblutung, Pulsausfall ohne Beschwerden oder mit geringen Beschwerden …",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "Schmerzen ein- oder beidseitig nach Gehen einer Wegstrecke in der Ebene von mehr als 500 m",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "Schmerzen ein- oder beidseitig nach Gehen einer Wegstrecke in der Ebene von 100 bis 500 m",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "Schmerzen ein- oder beidseitig nach Gehen einer Wegstrecke in der Ebene von 50 bis 100 m",
+          "von": 50,
+          "bis": 60
+        },
+        {
+          "text": "Schmerzen ein- oder beidseitig nach Gehen einer Wegstrecke in der Ebene von weniger als 50 m ohne Ruheschmerz",
+          "von": 70,
+          "bis": 80
+        },
+        {
+          "text": "Schmerzen nach Gehen einer Wegstrecke unter 50 m mit Ruheschmerz (Stadium III) einschließlich trophischer Störungen (Stadium IV), einseitig",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "dasselbe, beidseitig",
+          "von": 90,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "venenleiden",
+      "system": "herz",
+      "nr": "9.2.3",
+      "name": "Krampfadern, chronisch-venöse Insuffizienz, postthrombotisches Syndrom",
+      "suche": [
+        "krampfadern",
+        "venenschwaeche",
+        "thrombose",
+        "postthrombotisches syndrom",
+        "ulcus cruris"
+      ],
+      "stufen": [
+        {
+          "text": "Unkomplizierte Krampfadern",
+          "von": 0,
+          "bis": 0
+        },
+        {
+          "text": "mit geringem belastungsabhängigem Ödem, nicht ulzerösen Hautveränderungen, ohne wesentliche Stauungsbeschwerden",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mit erheblicher Ödembildung, häufig (mehrmals im Jahr) rezidivierenden Entzündungen",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "mit chronischen rezidivierenden Geschwüren, je nach Ausdehnung und Häufigkeit (einschließlich arthrogenes Stauungssyndrom)",
+          "von": 30,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "lymphoedem",
+      "system": "herz",
+      "nr": "9.2.3",
+      "name": "Lymphödem an einer Gliedmaße",
+      "suche": [
+        "lymphoedem",
+        "lymphödem",
+        "lipoedem",
+        "lipödem"
+      ],
+      "stufen": [
+        {
+          "text": "ohne wesentliche Funktionsbehinderung, Erfordernis einer Kompressionsbandage",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mit stärkerer Umfangsvermehrung (mehr als 3 cm) je nach Funktionseinschränkung",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "mit erheblicher Beeinträchtigung der Gebrauchsfähigkeit der betroffenen Gliedmaße, je nach Ausmaß",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "bei Gebrauchsunfähigkeit der ganzen Gliedmaße",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Entstellungen bei sehr ausgeprägten Formen sind ggf. zusätzlich zu berücksichtigen."
+    },
+    {
+      "id": "reflux",
+      "system": "verdauung",
+      "nr": "10.1",
+      "name": "Refluxkrankheit der Speiseröhre",
+      "suche": [
+        "reflux",
+        "sodbrennen",
+        "refluxoesophagitis",
+        "gerd"
+      ],
+      "stufen": [
+        {
+          "text": "mit anhaltenden Refluxbeschwerden je nach Ausmaß",
+          "von": 10,
+          "bis": 30
+        }
+      ],
+      "hinweis": "Auswirkungen auf Nachbarorgane sind zusätzlich zu bewerten."
+    },
+    {
+      "id": "speiseroehrenkrebs",
+      "system": "verdauung",
+      "nr": "10.1",
+      "name": "Maligner Speiseröhrentumor",
+      "suche": [
+        "speiseroehrenkrebs",
+        "speiseröhrenkrebs",
+        "oesophaguskarzinom",
+        "ösophaguskarzinom"
+      ],
+      "stufen": [
+        {
+          "text": "je nach Beeinträchtigung des Kräfte- und Ernährungszustandes",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Speiseröhrentumors ist in den ersten fünf Jahren eine Heilungsbewährung abzuwarten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "magenentfernung",
+      "system": "verdauung",
+      "nr": "10.2.1",
+      "name": "Teil- oder Totalentfernung des Magens",
+      "suche": [
+        "magenentfernung",
+        "gastrektomie",
+        "magenresektion",
+        "magenbypass"
+      ],
+      "stufen": [
+        {
+          "text": "Teilentfernung des Magens, Gastroenterostomie mit guter Funktion, je nach Beschwerden",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "Teilentfernung mit anhaltenden Beschwerden (z. B. Dumping-Syndrom, rezidivierendes Ulcus jejuni pepticum)",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "Totalentfernung des Magens ohne Beeinträchtigung des Kräfte- und Ernährungszustandes je nach Beschwerden",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "Totalentfernung bei Beeinträchtigung des Kräfte- und Ernährungszustandes und/oder Komplikationen (z. B. Dumping-Syndrom)",
+          "von": 40,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "magenkrebs",
+      "system": "verdauung",
+      "nr": "10.2.1",
+      "name": "Maligner Magentumor",
+      "suche": [
+        "magenkrebs",
+        "magenkarzinom",
+        "magentumor"
+      ],
+      "stufen": [
+        {
+          "text": "GdS während einer Heilungsbewährung von zwei Jahren nach Entfernung eines Magenfrühkarzinoms",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "GdS während einer Heilungsbewährung von fünf Jahren nach Entfernung aller anderen malignen Magentumoren je nach Stadium und Auswirkung auf den Allgemeinzustand",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Magentumors ist eine Heilungsbewährung abzuwarten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "reizdarm",
+      "system": "verdauung",
+      "nr": "10.2.2",
+      "name": "Chronische Darmstörungen (irritabler Darm, Divertikulose, Divertikulitis, Darmteilresektion)",
+      "suche": [
+        "reizdarm",
+        "divertikulitis",
+        "divertikulose",
+        "darmresektion"
+      ],
+      "stufen": [
+        {
+          "text": "ohne wesentliche Beschwerden und Auswirkungen",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mit stärkeren und häufig rezidivierenden oder anhaltenden Symptomen (z. B. Durchfälle, Spasmen)",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "mit erheblicher Minderung des Kräfte- und Ernährungszustandes",
+          "von": 40,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "morbus-crohn-colitis",
+      "system": "verdauung",
+      "nr": "10.2.2",
+      "name": "Colitis ulcerosa, Crohn-Krankheit (Enteritis regionalis)",
+      "suche": [
+        "morbus crohn",
+        "crohn",
+        "colitis ulcerosa",
+        "ced"
+      ],
+      "stufen": [
+        {
+          "text": "mit geringer Auswirkung (geringe Beschwerden, keine oder geringe Beeinträchtigung des Kräfte- und Ernährungszustandes, selten Durchfälle)",
+          "von": 10,
+          "bis": 20
+        },
+        {
+          "text": "mit mittelschwerer Auswirkung (häufig rezidivierende oder länger anhaltende Beschwerden, geringe bis mittelschwere Beeinträchtigung des Kräfte- und Ernährungszustandes, häufiger Durchfälle)",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mit schwerer Auswirkung (anhaltende oder häufig rezidivierende erhebliche Beschwerden, erhebliche Beeinträchtigung des Kräfte- und Ernährungszustandes, häufige, tägliche, auch nächtliche Durchfälle)",
+          "von": 50,
+          "bis": 60
+        },
+        {
+          "text": "mit schwerster Auswirkung (häufig rezidivierende oder anhaltende schwere Beschwerden, schwere Beeinträchtigung des Kräfte- und Ernährungszustandes, ausgeprägte Anämie)",
+          "von": 70,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Fisteln, Stenosen, postoperative Folgezustände (z. B. Kurzdarmsyndrom, Stoma-komplikationen), extraintestinale Manifestationen (z. B. Arthritiden), bei Kindern auch Wachstums- und Entwicklungsstörungen, sind zusätzlich zu bewerten."
+    },
+    {
+      "id": "zoeliakie",
+      "system": "verdauung",
+      "nr": "10.2.2",
+      "name": "Zöliakie, Sprue",
+      "suche": [
+        "zoeliakie",
+        "zöliakie",
+        "glutenunvertraeglichkeit",
+        "glutenunverträglichkeit",
+        "sprue"
+      ],
+      "stufen": [
+        {
+          "text": "ohne wesentliche Folgeerscheinungen unter diätetischer Therapie",
+          "von": 20,
+          "bis": 20
+        }
+      ],
+      "hinweis": "bei andauerndem, ungenügendem Ansprechen auf glutenfreie Kost (selten) sind - je nach Beeinträchtigung des Kräfte- und Ernährungszustands - höhere Werte angemessen."
+    },
+    {
+      "id": "darmkrebs",
+      "system": "verdauung",
+      "nr": "10.2.2",
+      "name": "Maligne Darmtumoren (Darmkrebs)",
+      "suche": [
+        "darmkrebs",
+        "kolonkarzinom",
+        "rektumkarzinom",
+        "kolorektales karzinom"
+      ],
+      "stufen": [
+        {
+          "text": "Heilungsbewährung von zwei Jahren: nach Entfernung eines malignen Darmtumors im Stadium (T1 bis T2) N0 M0 oder von lokalisierten Darmkarzinoiden",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von zwei Jahren: mit künstlichem After (nicht nur vorübergehend angelegt)",
+          "von": 70,
+          "bis": 80
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: nach Entfernung anderer maligner Darmtumoren wenigstens 80",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: mit künstlichem After (nicht nur vorübergehend angelegt)",
+          "von": 100,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Nach Entfernung maligner Darmtumoren ist eine Heilungsbewährung abzuwarten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "kuenstlicher-darmausgang",
+      "system": "verdauung",
+      "nr": "10.2.4",
+      "name": "Künstlicher After (Stoma)",
+      "suche": [
+        "stoma",
+        "kuenstlicher darmausgang",
+        "künstlicher darmausgang",
+        "anus praeter",
+        "colostoma",
+        "ileostoma"
+      ],
+      "stufen": [
+        {
+          "text": "mit guter Versorgungsmöglichkeit",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "sonst (z. B. bei Bauchwandhernie, Stenose, Retraktion, Prolaps, Narben, ungünstige Position)",
+          "von": 60,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Bei ausgedehntem Mastdarmvorfall, künstlichem After oder stark sezernierenden Kotfisteln, die zu starker Verschmutzung führen, sind ggf. außergewöhnliche seelische Begleiterscheinungen zusätzlich zu berücksichtigen."
+    },
+    {
+      "id": "stuhlinkontinenz",
+      "system": "verdauung",
+      "nr": "10.2.4",
+      "name": "Afterschließmuskelschwäche (Stuhlinkontinenz)",
+      "suche": [
+        "stuhlinkontinenz",
+        "schliessmuskelschwaeche",
+        "schließmuskelschwäche",
+        "inkontinenz"
+      ],
+      "stufen": [
+        {
+          "text": "mit seltenem, nur unter besonderen Belastungen auftretendem, unwillkürlichem Stuhlabgang",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "sonst",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "Funktionsverlust des Afterschließmuskels wenigstens 50",
+          "von": 50,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "hepatitis",
+      "system": "verdauung",
+      "nr": "10.3.1",
+      "name": "Chronische Hepatitis",
+      "suche": [
+        "hepatitis",
+        "hepatitis b",
+        "hepatitis c",
+        "leberentzuendung",
+        "leberentzündung"
+      ],
+      "stufen": [
+        {
+          "text": "Alleinige Virus-Replikation („gesunder Virusträger\")",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "ohne (klinisch-) entzündliche Aktivität",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "mit geringer (klinisch-) entzündlicher Aktivität",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "mit mäßiger (klinisch-) entzündlicher Aktivität",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "mit starker (klinisch-) entzündlicher Aktivität je nach Funktionsstörung",
+          "von": 50,
+          "bis": 70
+        }
+      ],
+      "hinweis": "Der serologische Nachweis von Antikörpern als Nachweis einer durchgemachten Infektion (Seronarbe) rechtfertigt allein noch keinen GdS."
+    },
+    {
+      "id": "leberzirrhose",
+      "system": "verdauung",
+      "nr": "10.3.2",
+      "name": "Leberzirrhose",
+      "suche": [
+        "leberzirrhose",
+        "zirrhose",
+        "leberschaden",
+        "schrumpfleber"
+      ],
+      "stufen": [
+        {
+          "text": "kompensiert, inaktiv",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "kompensiert, gering aktiv",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "kompensiert, stärker aktiv",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "dekompensiert (Aszites, portale Stauung, hepatische Enzephalopathie)",
+          "von": 60,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "lebertransplantation",
+      "system": "verdauung",
+      "nr": "10.3.4",
+      "name": "Lebertransplantation",
+      "suche": [
+        "lebertransplantation",
+        "transplantation leber",
+        "spenderleber"
+      ],
+      "stufen": [
+        {
+          "text": "während der Heilungsbewährung (im Allgemeinen zwei Jahre)",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "danach selbst bei günstigem Heilungsverlauf … wenigstens 60",
+          "von": 60,
+          "bis": 60
+        }
+      ],
+      "hinweis": "Nach Lebertransplantation ist eine Heilungsbewährung abzuwarten (im Allgemeinen zwei Jahre); GdS während dieser Zeit 100.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "leberkrebs",
+      "system": "verdauung",
+      "nr": "10.3.4",
+      "name": "Maligner primärer Lebertumor",
+      "suche": [
+        "leberkrebs",
+        "leberkarzinom",
+        "hcc"
+      ],
+      "stufen": [
+        {
+          "text": "GdS während der Heilungsbewährung (fünf Jahre)",
+          "von": 100,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen primären Lebertumors ist in den ersten fünf Jahren eine Heilungsbewährung abzuwarten; GdS während dieser Zeit 100",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "gallensteine",
+      "system": "verdauung",
+      "nr": "10.3.5",
+      "name": "Gallenblasen- und Gallenwegskrankheiten (Steinleiden, chronisch rezidivierende Entzündungen)",
+      "suche": [
+        "gallensteine",
+        "gallenkolik",
+        "gallenblase",
+        "gallenblasenentfernung"
+      ],
+      "stufen": [
+        {
+          "text": "mit Koliken in Abständen von mehreren Monaten, Entzündungen in Abständen von Jahren",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mit häufigeren Koliken und Entzündungen sowie mit Intervallbeschwerden",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "mit langanhaltenden Entzündungen oder mit Komplikationen",
+          "von": 40,
+          "bis": 50
+        },
+        {
+          "text": "Verlust der Gallenblase ohne wesentliche Störungen",
+          "von": 0,
+          "bis": 0
+        }
+      ]
+    },
+    {
+      "id": "pankreatitis",
+      "system": "verdauung",
+      "nr": "10.3.6",
+      "name": "Chronische Krankheit der Bauchspeicheldrüse (exkretorische Funktion)",
+      "suche": [
+        "pankreatitis",
+        "bauchspeicheldruese",
+        "bauchspeicheldrüse",
+        "pankreasinsuffizienz"
+      ],
+      "stufen": [
+        {
+          "text": "ohne wesentlichen Beschwerden, keine Beeinträchtigung des Kräfte- und Ernährungszustandes",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "geringe bis erhebliche Beschwerden, geringe bis mäßige Beeinträchtigung des Kräfte- und Ernährungszustandes",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "starke Beschwerden, Fettstühle, deutliche bis ausgeprägte Herabsetzung des Kräfte- und Ernährungszustandes",
+          "von": 50,
+          "bis": 80
+        }
+      ]
+    },
+    {
+      "id": "pankreaskrebs",
+      "system": "verdauung",
+      "nr": "10.3.6",
+      "name": "Maligner Bauchspeicheldrüsentumor",
+      "suche": [
+        "pankreaskrebs",
+        "bauchspeicheldruesenkrebs",
+        "pankreaskarzinom"
+      ],
+      "stufen": [
+        {
+          "text": "GdS während der Heilungsbewährung (fünf Jahre)",
+          "von": 100,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Bauchspeicheldrüsentumors ist in den ersten fünf Jahren eine Heilungsbewährung abzuwarten; GdS während dieser Zeit 100.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "nierenverlust",
+      "system": "harn",
+      "nr": "12.1.1",
+      "name": "Verlust, Ausfall oder Fehlen einer Niere",
+      "suche": [
+        "einzelniere",
+        "nierenverlust",
+        "nierenentfernung",
+        "eine niere"
+      ],
+      "stufen": [
+        {
+          "text": "Verlust, Ausfall oder Fehlen einer Niere bei Gesundheit der anderen Niere",
+          "von": 25,
+          "bis": 25
+        },
+        {
+          "text": "bei Schaden der anderen Niere, ohne Einschränkung der Nierenfunktion, mit krankhaftem Harnbefund",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "mit Funktionseinschränkung der anderen Niere leichten Grades",
+          "von": 40,
+          "bis": 50
+        },
+        {
+          "text": "mit Funktionseinschränkung der anderen Niere mittleren Grades",
+          "von": 60,
+          "bis": 80
+        },
+        {
+          "text": "mit Funktionseinschränkung der anderen Niere schweren Grades",
+          "von": 90,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "niereninsuffizienz",
+      "system": "harn",
+      "nr": "12.1.3",
+      "name": "Nierenschäden mit Einschränkung der Nierenfunktion (Niereninsuffizienz)",
+      "suche": [
+        "niereninsuffizienz",
+        "nierenschwaeche",
+        "nierenschwäche",
+        "kreatinin",
+        "nierenfunktion"
+      ],
+      "stufen": [
+        {
+          "text": "leichten Grades (Serumkreatininwerte unter 2 mg/dl [Kreatininclearance ca. 35-50 ml/min], Allgemeinbefinden nicht oder nicht wesentlich reduziert, keine Einschränkung der Leistungsfähigkeit)",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "leichten Grades (Serumkreatininwerte andauernd zwischen 2 und 4 mg/dl erhöht, Allgemeinbefinden wenig reduziert, leichte Einschränkung der Leistungsfähigkeit)",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "mittleren Grades (Serumkreatininwerte andauernd zwischen 4 und 8 mg/dl erhöht, Allgemeinbefinden stärker beeinträchtigt, mäßige Einschränkung der Leistungsfähigkeit)",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "schweren Grades (Serumkreatininwerte dauernd über 8 mg/dl, Allgemeinbefinden stark gestört, starke Einschränkung der Leistungsfähigkeit, bei Kindern keine normalen Schulleistungen mehr)",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Eine geringfügige Einschränkung der Kreatininclearance auf 50-80 ml/min bei im Normbereich liegenden Serumkreatininwerten bedingt keinen messbaren GdS. Bei allen Nierenschäden mit Funktionseinschränkungen sind Sekundärleiden (z. B. Hypertonie, ausgeprägte Anämie [Hb-Wert unter 8 g/dl], Polyneuropathie, Osteopathie) zusätzlich zu bewerten."
+    },
+    {
+      "id": "dialyse",
+      "system": "harn",
+      "nr": "12.1.3",
+      "name": "Dauerbehandlung mit Blutreinigungsverfahren (Dialyse)",
+      "suche": [
+        "dialyse",
+        "haemodialyse",
+        "hämodialyse",
+        "peritonealdialyse",
+        "blutwaesche"
+      ],
+      "stufen": [
+        {
+          "text": "Notwendigkeit der Dauerbehandlung mit Blutreinigungsverfahren (z. B. Hämodialyse, Peritonealdialyse)",
+          "von": 100,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "nierentransplantation",
+      "system": "harn",
+      "nr": "12.1.4",
+      "name": "Nierentransplantation",
+      "suche": [
+        "nierentransplantation",
+        "spenderniere",
+        "transplantation niere"
+      ],
+      "stufen": [
+        {
+          "text": "während der Heilungsbewährung (im Allgemeinen zwei Jahre)",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "danach unter Mitberücksichtigung der erforderlichen Immunsuppression nicht niedriger als 50",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Nach Nierentransplantation ist eine Heilungsbewährung abzuwarten (im Allgemeinen zwei Jahre); während dieser Zeit ist ein GdS von 100 anzusetzen. Danach ist der GdS entscheidend abhängig von der verbliebenen Funktionsstörung.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "nierenkrebs",
+      "system": "harn",
+      "nr": "12.1.4",
+      "name": "Maligner Nierentumor, Nierenbeckentumor",
+      "suche": [
+        "nierenkrebs",
+        "nierenzellkarzinom",
+        "hypernephrom",
+        "nierentumor"
+      ],
+      "stufen": [
+        {
+          "text": "Heilungsbewährung von zwei Jahren: nach Entfernung eines Nierenzellkarzinoms (Hypernephrom) im Stadium T1 N0 M0 (Grading G1)",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von zwei Jahren: nach Entfernung eines Nierenbeckentumors im Stadium Ta N0 M0 (Grading G1)",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: Nierenzellkarzinom im Stadium (T1 [Grading ab G2], T2) N0 M0",
+          "von": 60,
+          "bis": 60
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: Nierenzellkarzinom in höheren Stadien wenigstens 80",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: Nierenbeckentumor im Stadium (T1 bis T2) N0 M0",
+          "von": 60,
+          "bis": 60
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: Nierenbeckentumor in höheren Stadien wenigstens 80",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Nierentumors oder Nierenbeckentumors ist eine Heilungsbewährung abzuwarten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "harnwegsentzuendung",
+      "system": "harn",
+      "nr": "12.2.1",
+      "name": "Chronische Harnwegsentzündungen (insbesondere chronische Harnblasenentzündung)",
+      "suche": [
+        "blasenentzuendung",
+        "blasenentzündung",
+        "zystitis",
+        "harnwegsinfekt"
+      ],
+      "stufen": [
+        {
+          "text": "leichten Grades (ohne wesentliche Miktionsstörungen)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "stärkeren Grades (mit erheblichen und häufigen Miktionsstörungen)",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "chronische Harnblasenentzündung mit Schrumpfblase (Fassungsvermögen unter 100 ml, Blasentenesmen)",
+          "von": 50,
+          "bis": 70
+        }
+      ]
+    },
+    {
+      "id": "blasenentleerungsstoerung",
+      "system": "harn",
+      "nr": "12.2.2",
+      "name": "Entleerungsstörungen der Blase",
+      "suche": [
+        "blasenentleerungsstoerung",
+        "restharn",
+        "katheter",
+        "harnverhalt"
+      ],
+      "stufen": [
+        {
+          "text": "leichten Grades (z. B. geringe Restharnbildung, längeres Nachträufeln)",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "stärkeren Grades (z. B. Notwendigkeit manueller Entleerung, Anwendung eines Blasenschrittmachers, erhebliche Restharnbildung, schmerzhaftes Harnlassen)",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "mit Notwendigkeit regelmäßigen Katheterisierens, eines Dauerkatheters, eines suprapubischen Blasenfistelkatheters oder Notwendigkeit eines Urinals, ohne wesentliche Begleiterscheinungen",
+          "von": 50,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "blasenkrebs",
+      "system": "harn",
+      "nr": "12.2.3",
+      "name": "Maligner Blasentumor (Blasenkrebs)",
+      "suche": [
+        "blasenkrebs",
+        "harnblasenkarzinom",
+        "blasentumor"
+      ],
+      "stufen": [
+        {
+          "text": "Heilungsbewährung von zwei Jahren: nach Entfernung des Tumors im Frühstadium unter Belassung der Harnblase (Ta bis T1) N0 M0, Grading G1",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: nach Entfernung im Stadium Tis oder T1 (Grading ab G2)",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: nach Entfernung in den Stadien (T2 bis T3a) N0 M0",
+          "von": 60,
+          "bis": 60
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: mit Blasenentfernung einschließlich künstlicher Harnableitung",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: nach Entfernung in höheren Stadien",
+          "von": 100,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Blasentumors ist eine Heilungsbewährung abzuwarten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "harninkontinenz",
+      "system": "harn",
+      "nr": "12.2.4",
+      "name": "Harninkontinenz",
+      "suche": [
+        "harninkontinenz",
+        "inkontinenz",
+        "blasenschwaeche",
+        "blasenschwäche"
+      ],
+      "stufen": [
+        {
+          "text": "relative: leichter Harnabgang bei Belastung (z. B. Stressinkontinenz Grad I)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "relative: Harnabgang tags und nachts (z. B. Stressinkontinenz Grad II-III)",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "völlige Harninkontinenz",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "völlige Harninkontinenz bei ungünstiger Versorgungsmöglichkeit",
+          "von": 60,
+          "bis": 70
+        },
+        {
+          "text": "nach Implantation einer Sphinkterprothese mit guter Funktion",
+          "von": 20,
+          "bis": 20
+        }
+      ]
+    },
+    {
+      "id": "harnableitung",
+      "system": "harn",
+      "nr": "12.2.4",
+      "name": "Künstliche Harnableitung (ohne Nierenfunktionsstörung)",
+      "suche": [
+        "urostoma",
+        "harnableitung",
+        "neoblase",
+        "kuenstliche harnableitung"
+      ],
+      "stufen": [
+        {
+          "text": "in den Darm",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "nach außen mit guter Versorgungsmöglichkeit",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "nach außen sonst (z. B. bei Stenose, Retraktion, Abdichtungsproblemen)",
+          "von": 60,
+          "bis": 80
+        },
+        {
+          "text": "Darmneoblase mit ausreichendem Fassungsvermögen, ohne Harnstau, ohne wesentliche Entleerungsstörungen",
+          "von": 30,
+          "bis": 30
+        }
+      ]
+    },
+    {
+      "id": "prostatakrebs",
+      "system": "geschlecht",
+      "nr": "13.6",
+      "name": "Maligner Prostatatumor (Prostatakrebs)",
+      "suche": [
+        "prostatakrebs",
+        "prostatakarzinom",
+        "prostata"
+      ],
+      "stufen": [
+        {
+          "text": "Heilungsbewährung von zwei Jahren: nach Entfernung im Stadium T1a N0 M0 (Grading G1)",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: nach Entfernung in den Stadien T1a N0 M0 (Grading ab G2) und (T1b bis T2) N0 M0",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: nach Entfernung in höheren Stadien wenigstens 80",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "Maligner Prostatatumor ohne Notwendigkeit einer Behandlung",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Maligner Prostatatumor auf Dauer hormonbehandelt wenigstens 60",
+          "von": 60,
+          "bis": 60
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Prostatatumors ist eine Heilungsbewährung abzuwarten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "hodenkrebs",
+      "system": "geschlecht",
+      "nr": "13.4",
+      "name": "Maligner Hodentumor (Hodenkrebs)",
+      "suche": [
+        "hodenkrebs",
+        "seminom",
+        "hodentumor"
+      ],
+      "stufen": [
+        {
+          "text": "Heilungsbewährung von zwei Jahren: nach Entfernung eines Seminoms oder nichtseminomatösen Tumors im Stadium (T1 bis T2) N0 M0",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: Seminom im Stadium (T1 bis T2) N1 M0 bzw. T3 N0 M0",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: nichtseminomatöser Tumor im Stadium (T1 bis T2) N1 M0 bzw. T3 N0 M0",
+          "von": 60,
+          "bis": 60
+        },
+        {
+          "text": "in höheren Stadien",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Hodentumors ist eine Heilungsbewährung abzuwarten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "brustverlust",
+      "system": "geschlecht",
+      "nr": "14.1",
+      "name": "Verlust der Brust (Mastektomie)",
+      "suche": [
+        "mastektomie",
+        "brustamputation",
+        "brustentfernung",
+        "brustoperation"
+      ],
+      "stufen": [
+        {
+          "text": "einseitig",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "beidseitig",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "Segment- oder Quadrantenresektion der Brust",
+          "von": 0,
+          "bis": 20
+        },
+        {
+          "text": "Aufbauplastik mit Prothese nach Mastektomie, einseitig",
+          "von": 10,
+          "bis": 30
+        },
+        {
+          "text": "Aufbauplastik mit Prothese nach Mastektomie, beidseitig",
+          "von": 20,
+          "bis": 40
+        }
+      ],
+      "hinweis": "Funktionseinschränkungen im Schultergürtel, des Armes oder der Wirbelsäule als Operations- oder Bestrahlungsfolgen (z. B. Lymphödem, Muskeldefekte, Nerven-läsionen, Fehlhaltung) sind ggf. zusätzlich zu berücksichtigen."
+    },
+    {
+      "id": "brustkrebs",
+      "system": "geschlecht",
+      "nr": "14.1",
+      "name": "Maligner Brustdrüsentumor (Brustkrebs, Mammakarzinom)",
+      "suche": [
+        "brustkrebs",
+        "mammakarzinom",
+        "brustkarzinom",
+        "brusttumor"
+      ],
+      "stufen": [
+        {
+          "text": "bei Entfernung im Stadium (T1 bis T2) pN0 M0",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "bei Entfernung im Stadium (T1 bis T2) pN1 M0",
+          "von": 60,
+          "bis": 60
+        },
+        {
+          "text": "in höheren Stadien wenigstens 80",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "nach Entfernung eines Carcinoma in situ der Brustdrüse (Heilungsbewährung zwei Jahre)",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Brustdrüsentumors ist in den ersten fünf Jahren eine Heilungsbewährung abzuwarten. Bedingen die Folgen der Operation und gegebenenfalls anderer Behandlungsmaßnahmen einen GdS von 50 oder mehr, ist der während der Heilungsbewährung anzusetzende GdS entsprechend höher zu bewerten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "gebaermutterkrebs",
+      "system": "geschlecht",
+      "nr": "14.2",
+      "name": "Maligner Gebärmuttertumor (Gebärmutterhals- und Gebärmutterkörperkrebs)",
+      "suche": [
+        "gebaermutterkrebs",
+        "gebärmutterkrebs",
+        "zervixkarzinom",
+        "endometriumkarzinom"
+      ],
+      "stufen": [
+        {
+          "text": "Heilungsbewährung von zwei Jahren: Zervixtumor (Mikrokarzinom) im Stadium T1a N0 M0",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von zwei Jahren: Korpustumor im Frühstadium (Grading G1, Infiltration höchstens des inneren Drittels des Myometrium)",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: Zervixtumor im Stadium (T1b bis T2a) N0 M0",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: Zervixtumor im Stadium T2b N0 M0",
+          "von": 60,
+          "bis": 60
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: Korpustumor im Stadium T1 N0 M0 (Grading ab G2, …)",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Heilungsbewährung von fünf Jahren: Korpustumor im Stadium T2 N0 M0",
+          "von": 60,
+          "bis": 60
+        },
+        {
+          "text": "in höheren Stadien",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Gebärmuttertumors ist eine Heilungsbewährung abzuwarten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "eierstockkrebs",
+      "system": "geschlecht",
+      "nr": "14.3",
+      "name": "Maligner Eierstocktumor (Eierstockkrebs)",
+      "suche": [
+        "eierstockkrebs",
+        "ovarialkarzinom",
+        "ovarialkrebs"
+      ],
+      "stufen": [
+        {
+          "text": "nach Entfernung im Stadium T1 N0 M0",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "in anderen Stadien",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Eierstocktumors ist in den ersten fünf Jahren eine Heilungsbewährung abzuwarten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "endometriose",
+      "system": "geschlecht",
+      "nr": "14.5",
+      "name": "Endometriose",
+      "suche": [
+        "endometriose",
+        "unterleibsschmerzen"
+      ],
+      "stufen": [
+        {
+          "text": "leichten Grades (geringe Ausdehnung, keine oder nur geringe Beschwerden)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mittleren Grades",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "schweren Grades (z. B. Übergreifen auf die Nachbarorgane, starke Beschwerden, erhebliche Beeinträchtigung des Allgemeinzustandes, Sterilität)",
+          "von": 50,
+          "bis": 60
+        }
+      ]
+    },
+    {
+      "id": "gebaermuttersenkung",
+      "system": "geschlecht",
+      "nr": "14.6",
+      "name": "Senkung der Scheidenwand, Vorfall der Scheide und/oder der Gebärmutter",
+      "suche": [
+        "gebaermuttersenkung",
+        "gebärmuttersenkung",
+        "beckenbodenschwaeche",
+        "prolaps"
+      ],
+      "stufen": [
+        {
+          "text": "ohne Harninkontinenz oder mit geringer Stressinkontinenz (Grad I)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mit stärkerer Harninkontinenz und/oder stärkeren Senkungsbeschwerden",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "mit völliger Harninkontinenz",
+          "von": 50,
+          "bis": 60
+        },
+        {
+          "text": "bei ungünstiger Versorgungsmöglichkeit",
+          "von": 70,
+          "bis": 70
+        }
+      ]
+    },
+    {
+      "id": "diabetes",
+      "system": "stoffwechsel",
+      "nr": "15.1",
+      "name": "Zuckerkrankheit (Diabetes mellitus)",
+      "suche": [
+        "diabetes",
+        "zuckerkrankheit",
+        "insulin",
+        "typ 1",
+        "typ 2"
+      ],
+      "stufen": [
+        {
+          "text": "Die an Diabetes erkrankten Menschen, deren Therapie regelhaft keine Hypoglykämie auslösen kann und die somit in der Lebensführung kaum beeinträchtigt sind …",
+          "von": 0,
+          "bis": 0
+        },
+        {
+          "text": "Die an Diabetes erkrankten Menschen, deren Therapie eine Hypoglykämie auslösen kann und die durch Einschnitte in der Lebensführung beeinträchtigt sind …",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "Die an Diabetes erkrankten Menschen, deren Therapie eine Hypoglykämie auslösen kann, die mindestens einmal täglich eine dokumentierte Überprüfung des Blutzuckers selbst durchführen müssen und durch weitere Einschnitte in der Lebensführung beeinträchtigt sind …",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "Die an Diabetes erkrankten Menschen, die eine Insulintherapie mit täglich mindestens vier Insulininjektionen durchführen, wobei die Insulindosis in Abhängigkeit vom aktuellen Blutzucker, der folgenden Mahlzeit und der körperlichen Belastung selbständig variiert werden muss, und durch erhebliche Einschnitte gravierend in der Lebensführung beeinträchtigt sind …",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Die Blutzuckerselbstmessungen und Insulindosen (beziehungsweise Insulingaben über die Insulinpumpe) müssen dokumentiert sein. Außergewöhnlich schwer regulierbare Stoffwechsellagen können jeweils höhere GdS-Werte bedingen."
+    },
+    {
+      "id": "schilddruese",
+      "system": "stoffwechsel",
+      "nr": "15.6",
+      "name": "Schilddrüsenkrankheiten",
+      "suche": [
+        "schilddruese",
+        "schilddrüse",
+        "hashimoto",
+        "schilddruesenunterfunktion",
+        "struma"
+      ],
+      "stufen": [],
+      "hinweis": "Schilddrüsenfunktionsstörungen sind gut behandelbar, so dass in der Regel anhaltende Beeinträchtigungen nicht zu erwarten sind. Selten auftretende Organkomplikationen (z. B. Exophthalmus, Trachealstenose) sind gesondert zu beurteilen."
+    },
+    {
+      "id": "schilddruesenkrebs",
+      "system": "stoffwechsel",
+      "nr": "15.6",
+      "name": "Maligner Schilddrüsentumor (Schilddrüsenkrebs)",
+      "suche": [
+        "schilddruesenkrebs",
+        "schilddrüsenkrebs",
+        "schilddruesenkarzinom"
+      ],
+      "stufen": [
+        {
+          "text": "nach Entfernung eines papillären oder follikulären Tumors, ohne Lymphknotenbefall",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "sonst",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Schilddrüsentumors ist in den ersten fünf Jahren eine Heilungsbewährung abzuwarten. Bedingt der nach der Entfernung verbliebene Organschaden einen GdS von 50 oder mehr, ist der während der Heilungsbewährung anzusetzende GdS entsprechend höher zu bewerten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "adipositas",
+      "system": "stoffwechsel",
+      "nr": "15.3",
+      "name": "Alimentäre Fettsucht, Adipositas",
+      "suche": [
+        "adipositas",
+        "uebergewicht",
+        "übergewicht",
+        "fettleibigkeit"
+      ],
+      "stufen": [],
+      "hinweis": "Die Adipositas allein bedingt keinen GdS. Nur Folge- und Begleitschäden (insbesondere am kardiopulmonalen System oder am Stütz- und Bewegungsapparat) können die Annahme eines GdS begründen. Gleiches gilt für die besonderen funktionellen Auswirkungen einer Adipositas permagna."
+    },
+    {
+      "id": "gicht",
+      "system": "stoffwechsel",
+      "nr": "15.2",
+      "name": "Gicht",
+      "suche": [
+        "gicht",
+        "harnsaeure",
+        "harnsäure"
+      ],
+      "stufen": [],
+      "hinweis": "Bei der Beurteilung des GdS sind die Funktionseinschränkungen der betroffenen Gelenke, Schmerzen, Häufigkeit und Schwere der entzündlichen Schübe und eine Beteiligung der inneren Organe zu berücksichtigen."
+    },
+    {
+      "id": "mukoviszidose",
+      "system": "stoffwechsel",
+      "nr": "15.5",
+      "name": "Mukoviszidose (zystische Fibrose)",
+      "suche": [
+        "mukoviszidose",
+        "zystische fibrose"
+      ],
+      "stufen": [
+        {
+          "text": "unter Therapie Aktivitäten, Gedeihen und Ernährung altersgemäß",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "unter Therapie Aktivitäten und Lungenfunktion leicht eingeschränkt, Gedeihen und Ernährung noch altersgemäß",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "Aktivitäten und Lungenfunktion deutlich eingeschränkt, häufig Gedeih- und Entwicklungsstörungen, Schulbesuch und Erwerbstätigkeit in der Regel noch möglich",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "schwere bis schwerste Einschränkung der Aktivitäten, der Lungenfunktion und des Ernährungszustandes",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Folgekrankheiten (z. B. Diabetes mellitus, Impotenz, Leberzirrhose) sind ggf. zusätzlich zu berücksichtigen."
+    },
+    {
+      "id": "hodgkin",
+      "system": "blut",
+      "nr": "16.2",
+      "name": "Hodgkin-Krankheit (Morbus Hodgkin)",
+      "suche": [
+        "hodgkin",
+        "morbus hodgkin",
+        "lymphdruesenkrebs",
+        "lymphom"
+      ],
+      "stufen": [
+        {
+          "text": "im Stadium I bis IIIA bei mehr als sechs Monate andauernder Therapie, bis zum Ende der Intensiv-Therapie je nach Auswirkung auf den Allgemeinzustand",
+          "von": 60,
+          "bis": 100
+        },
+        {
+          "text": "im Stadium I bis IIIA nach Vollremission für die Dauer von drei Jahren (Heilungsbewährung)",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "im Stadium IIIB und IV bis zum Ende der Intensiv-Therapie",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "im Stadium IIIB und IV nach Vollremission für die Dauer von drei Jahren (Heilungsbewährung)",
+          "von": 60,
+          "bis": 60
+        }
+      ],
+      "hinweis": "nach Vollremission GdS für die Dauer von drei Jahren (Heilungsbewährung)",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "cll",
+      "system": "blut",
+      "nr": "16.3.1",
+      "name": "Chronische lymphatische Leukämie und andere niedrigmaligne Non-Hodgkin-Lymphome",
+      "suche": [
+        "cll",
+        "chronische lymphatische leukaemie",
+        "non-hodgkin-lymphom",
+        "leukaemie"
+      ],
+      "stufen": [
+        {
+          "text": "mit geringen Auswirkungen (keine wesentlichen Beschwerden, keine Allgemeinsymptome, keine Behandlungsbedürftigkeit, keine wesentliche Progredienz)",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mit mäßigen Auswirkungen (Behandlungsbedürftigkeit)",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "mit starken Auswirkungen, starke Progredienz (z. B. schwere Anämie, ausgeprägte Thrombozytopenie, rezidivierende Infektionen, starke Milzvergrößerung)",
+          "von": 80,
+          "bis": 100
+        },
+        {
+          "text": "Lokalisierte niedrigmaligne Non-Hodgkin-Lymphome nach Vollremission (Beseitigung des Tumors) für die Dauer von drei Jahren (Heilungsbewährung)",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Lokalisierte niedrigmaligne Non-Hodgkin-Lymphome: nach Vollremission (Beseitigung des Tumors) für die Dauer von drei Jahren (Heilungsbewährung) 50",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "hochmalignes-lymphom",
+      "system": "blut",
+      "nr": "16.3.2",
+      "name": "Hochmaligne Non-Hodgkin-Lymphome",
+      "suche": [
+        "hochmalignes lymphom",
+        "dlbcl",
+        "non-hodgkin",
+        "lymphdruesenkrebs"
+      ],
+      "stufen": [
+        {
+          "text": "bis zum Ende der Intensiv-Therapie",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "nach Vollremission für die Dauer von drei Jahren (Heilungsbewährung)",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "nach Vollremission GdS für die Dauer von drei Jahren (Heilungsbewährung) 80",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "plasmozytom",
+      "system": "blut",
+      "nr": "16.4",
+      "name": "Plasmozytom (Myelom)",
+      "suche": [
+        "plasmozytom",
+        "multiples myelom",
+        "myelom"
+      ],
+      "stufen": [
+        {
+          "text": "mit geringen Auswirkungen (keine wesentliche Auswirkung auf den Allgemeinzustand, keine Behandlungsbedürftigkeit, ohne Beschwerden, keine wesentliche Progredienz)",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mit mäßigen Auswirkungen (Behandlungsbedürftigkeit)",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "mit starken Auswirkungen (z. B. schwere Anämie, starke Schmerzen, Nierenfunktionseinschränkung)",
+          "von": 80,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "cml",
+      "system": "blut",
+      "nr": "16.5.1",
+      "name": "Chronische myeloische Leukämie, BCR/ABL-positiv",
+      "suche": [
+        "cml",
+        "chronische myeloische leukaemie",
+        "chronische myeloische leukämie"
+      ],
+      "stufen": [
+        {
+          "text": "Im Stadium der kompletten hämatologischen, kompletten zytogenetischen und molekularen Remission",
+          "von": 10,
+          "bis": 20
+        },
+        {
+          "text": "Im Stadium der kompletten hämatologischen Remission je nach Ausmaß der zytogenetischen Remission",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "Im chronischen Stadium, auch bei Krankheitsbeginn (im ersten Jahr der Therapie), bei fehlender Remission oder bei Rezidiv …",
+          "von": 50,
+          "bis": 80
+        },
+        {
+          "text": "In der akzelerierten Phase oder in der Blastenkrise",
+          "von": 100,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "akute-leukaemie",
+      "system": "blut",
+      "nr": "16.6",
+      "name": "Akute Leukämien",
+      "suche": [
+        "akute leukaemie",
+        "akute leukämie",
+        "aml",
+        "blutkrebs"
+      ],
+      "stufen": [
+        {
+          "text": "Im ersten Jahr nach Diagnosestellung (Erstdiagnose oder Rezidiv; insbesondere während der Induktionstherapie, Konsolidierungstherapie, Erhaltungstherapie)",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "Nach dem ersten Jahr bei unvollständiger klinischer Remission: Der GdS beträgt weiterhin 100",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "Nach dem ersten Jahr bei kompletter klinischer Remission unabhängig von der durchgeführten Therapie, für die Dauer von drei Jahren (Heilungsbewährung)",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Danach ist der GdS nach den verbliebenen Auswirkungen (insbesondere chronische Müdigkeit, Sterilität, Neuropathien, Beeinträchtigung der Entwicklung und kognitiver Funktionen) zu bewerten.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "stammzelltransplantation",
+      "system": "blut",
+      "nr": "16.8",
+      "name": "Knochenmark- und Stammzelltransplantation",
+      "suche": [
+        "stammzelltransplantation",
+        "knochenmarktransplantation",
+        "allogene transplantation"
+      ],
+      "stufen": [
+        {
+          "text": "Nach allogener Knochenmarktransplantation für die Dauer von drei Jahren (Heilungsbewährung)",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "Danach nach den verbliebenen Auswirkungen und dem eventuellen Organschaden, jedoch nicht niedriger als 30",
+          "von": 30,
+          "bis": 30
+        }
+      ],
+      "hinweis": "Nach autologer Knochenmark- oder Blutstammzelltransplantation ist der GdS entsprechend der Grundkrankheit zu beurteilen.",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "anaemie",
+      "system": "blut",
+      "nr": "16.9",
+      "name": "Therapierefraktäre Anämien (z. B. hämolytische Anämien, Thalassämie)",
+      "suche": [
+        "anaemie",
+        "anämie",
+        "blutarmut",
+        "thalassaemie",
+        "thalassämie"
+      ],
+      "stufen": [
+        {
+          "text": "mit geringen Auswirkungen (ausgeglichen und ohne wesentliche Allgemeinstörungen)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "mit mäßigen Auswirkungen (z. B. gelegentliche Transfusionen)",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "mit starken Auswirkungen (z. B. andauernde Transfusionsbedürftigkeit)",
+          "von": 50,
+          "bis": 70
+        }
+      ],
+      "hinweis": "Symptomatische Anämien (z. B. Eisenmangelanämie, vitaminabhängige Anämien) sind in der Regel gut behandelbar und nur vorübergehender Natur."
+    },
+    {
+      "id": "haemophilie",
+      "system": "blut",
+      "nr": "16.10",
+      "name": "Hämophilie und entsprechende plasmatische Blutungskrankheiten",
+      "suche": [
+        "haemophilie",
+        "hämophilie",
+        "bluterkrankheit",
+        "von-willebrand"
+      ],
+      "stufen": [
+        {
+          "text": "leichte Form mit Restaktivität von antihämophilem Globulin (AHG) über 5 %",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "mittelschwere Form - mit 1-5 % AHG - mit seltenen Blutungen",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mittelschwere Form mit häufigen (mehrfach jährlich) ausgeprägten Blutungen",
+          "von": 50,
+          "bis": 80
+        },
+        {
+          "text": "schwere Form - mit weniger als 1 % AHG",
+          "von": 80,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "blutungsleiden-antikoagulation",
+      "system": "blut",
+      "nr": "16.10",
+      "name": "Sonstige Blutungsleiden, Dauerbehandlung mit Antikoagulantien",
+      "suche": [
+        "blutverduennung",
+        "blutverdünnung",
+        "marcumar",
+        "antikoagulation",
+        "blutungsneigung"
+      ],
+      "stufen": [
+        {
+          "text": "Sonstige Blutungsleiden ohne wesentliche Auswirkungen",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "mit mäßigen Auswirkungen",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "mit starken Auswirkungen (starke Blutungen bereits bei leichten Traumen)",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "mit ständiger klinisch manifester Blutungsneigung (Spontanblutungen, Gefahr lebensbedrohlicher Blutungen)",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Wenn die Grundkrankheit nicht mehr besteht bzw. keinen GdS mehr bedingt, aber eine Weiterbehandlung mit Antikoagulantien erforderlich ist, kann - analog den sonstigen Blutungsleiden - in der Regel ein GdS von 10 angenommen werden."
+    },
+    {
+      "id": "hiv",
+      "system": "blut",
+      "nr": "16.11",
+      "name": "Erworbenes Immunmangelsyndrom (HIV-Infektion)",
+      "suche": [
+        "hiv",
+        "aids",
+        "immunschwaeche",
+        "immunschwäche"
+      ],
+      "stufen": [
+        {
+          "text": "HIV-Infektion ohne klinische Symptomatik",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "mit klinischer Symptomatik, geringe Leistungsbeeinträchtigung (z. B. bei Lymphadenopathie syndrom [LAS])",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "stärkere Leistungsbeeinträchtigung (z. B. bei AIDS-related complex [ARC])",
+          "von": 50,
+          "bis": 80
+        },
+        {
+          "text": "schwere Leistungsbeeinträchtigung (AIDS-Vollbild)",
+          "von": 100,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "neurodermitis",
+      "system": "haut",
+      "nr": "17.1",
+      "name": "Atopisches Ekzem („Neurodermitis constitutionalis\", „endogenes Ekzem\")",
+      "suche": [
+        "neurodermitis",
+        "atopisches ekzem",
+        "ekzem",
+        "atopische dermatitis"
+      ],
+      "stufen": [
+        {
+          "text": "geringe, auf die Prädilektionsstellen begrenzte Ausdehnung bis zu zweimal im Jahr für wenige Wochen auftretend",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "bei länger dauerndem Bestehen",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "mit generalisierten Hauterscheinungen, insbesondere Gesichtsbefall",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "mit klinischer oder vergleichbar intensiver ambulanter Behandlungsnotwendigkeit mehrmals im Jahr",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Bei Hautkrankheiten mit stark schwankendem Leidensverlauf kommt ein Durchschnitts-GdS in Betracht. Bei Kindern können sich Hautkrankheiten schwerer auswirken als bei Erwachsenen."
+    },
+    {
+      "id": "urtikaria",
+      "system": "haut",
+      "nr": "17.2",
+      "name": "Chronisch rezidivierende Urtikaria/Quincke-Ödem",
+      "suche": [
+        "urtikaria",
+        "nesselsucht",
+        "quincke-oedem",
+        "angioödem"
+      ],
+      "stufen": [
+        {
+          "text": "selten, bis zu zweimal im Jahr auftretend, leicht vermeidbare Noxen oder Allergene",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "häufiger auftretende Schübe, schwer vermeidbare Noxen oder Allergene",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "schwerer chronischer, über Jahre sich hinziehender Verlauf",
+          "von": 40,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Eine systemische Beteiligung z. B. des Gastrointestinaltraktes oder des Kreislaufs ist ggf. zusätzlich zu berücksichtigen."
+    },
+    {
+      "id": "akne",
+      "system": "haut",
+      "nr": "17.3",
+      "name": "Akne (Acne vulgaris, Acne conglobata, Acne inversa)",
+      "suche": [
+        "akne",
+        "acne inversa",
+        "hidradenitis",
+        "acne conglobata"
+      ],
+      "stufen": [
+        {
+          "text": "Acne vulgaris leichteren bis mittleren Grades",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "Acne vulgaris schweren Grades mit vereinzelter Abszess- und Knotenbildung und entsprechender erheblicher kosmetischer Beeinträchtigung",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "Acne conglobata: auf die Prädilektionsstellen begrenzte häufige Abszess- und Fistelbildungen und lokalisationsbedingte Beeinträchtigungen",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "schwerste Formen mit rezidivierenden eitrigen, vernarbenden axilläringuinalen und nuchalen Abszessen (Acne triade) … wenigstens 50",
+          "von": 50,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "psoriasis",
+      "system": "haut",
+      "nr": "17.7",
+      "name": "Psoriasis vulgaris (Schuppenflechte)",
+      "suche": [
+        "psoriasis",
+        "schuppenflechte",
+        "psoriasis vulgaris"
+      ],
+      "stufen": [
+        {
+          "text": "auf die Prädilektionsstellen beschränkt",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "ausgedehnter, aber erscheinungsfreie Intervalle von Monaten",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "bei andauerndem ausgedehnten Befall oder stark beeinträchtigendem lokalen Befall (z. B. an den Händen)",
+          "von": 30,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Eine außergewöhnliche Nagelbeteiligung (mit Zerstörung der Nagelplatten) sowie eine Gelenk- und Wirbelsäulenbeteiligung sind zusätzlich zu bewerten."
+    },
+    {
+      "id": "hautkrebs",
+      "system": "haut",
+      "nr": "17.13",
+      "name": "Maligner Tumor der Haut (Melanom, Hautkrebs)",
+      "suche": [
+        "hautkrebs",
+        "melanom",
+        "schwarzer hautkrebs",
+        "plattenepithelkarzinom"
+      ],
+      "stufen": [
+        {
+          "text": "nach Entfernung eines Melanoms im Stadium I ([pT1 bis T2] pN0 M0) oder eines anderen Hauttumors in den Stadien (pT1 bis T2) pN0 bis N2 M0",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "in anderen Stadien",
+          "von": 80,
+          "bis": 80
+        }
+      ],
+      "hinweis": "Nach Entfernung eines malignen Tumors der Haut ist in den ersten fünf Jahren eine Heilungsbewährung abzuwarten (Ausnahmen: z. B. Basalzellkarzinome, Bowen-Krankheit, Melanoma in situ)",
+      "heilungsbewaehrung": true
+    },
+    {
+      "id": "haarausfall",
+      "system": "haut",
+      "nr": "17.11",
+      "name": "Totaler Haarausfall",
+      "suche": [
+        "haarausfall",
+        "alopezie",
+        "alopecia universalis"
+      ],
+      "stufen": [
+        {
+          "text": "Totaler Haarausfall (mit Fehlen von Augenbrauen und Wimpern)",
+          "von": 30,
+          "bis": 30
+        }
+      ]
+    },
+    {
+      "id": "wirbelsaeulenschaeden",
+      "system": "wirbelsaeule",
+      "nr": "18.9",
+      "name": "Wirbelsäulenschäden",
+      "suche": [
+        "wirbelsaeule",
+        "wirbelsäule",
+        "rueckenschmerzen",
+        "rückenschmerzen",
+        "skoliose",
+        "spinalkanalstenose"
+      ],
+      "stufen": [
+        {
+          "text": "ohne Bewegungseinschränkung oder Instabilität",
+          "von": 0,
+          "bis": 0
+        },
+        {
+          "text": "mit geringen funktionellen Auswirkungen (Verformung, rezidivierende oder anhaltende Bewegungseinschränkung oder Instabilität geringen Grades, seltene und kurz dauernd auftretende leichte Wirbelsäulensyndrome)",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "mit mittelgradigen funktionellen Auswirkungen in einem Wirbelsäulenabschnitt (Verformung, häufig rezidivierende oder anhaltende Bewegungseinschränkung oder Instabilität mittleren Grades, häufig rezidivierende und über Tage andauernde Wirbelsäulensyndrome)",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "mit schweren funktionellen Auswirkungen in einem Wirbelsäulenabschnitt (Verformung, häufig rezidivierende oder anhaltende Bewegungseinschränkung oder Instabilität schweren Grades, häufig rezidivierende und Wochen andauernde ausgeprägte Wirbelsäulensyndrome)",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "mit mittelgradigen bis schweren funktionellen Auswirkungen in zwei Wirbelsäulenabschnitten",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mit besonders schweren Auswirkungen (z. B. Versteifung großer Teile der Wirbelsäule; anhaltende Ruhigstellung durch Rumpforthese, die drei Wirbelsäulenabschnitte umfasst [z. B. Milwaukee-Korsett]; schwere Skoliose [ab ca. 70° nach Cobb])",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "bei schwerster Belastungsinsuffizienz bis zur Geh- und Stehunfähigkeit",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Anhaltende Funktionsstörungen infolge Wurzelkompression mit motorischen Ausfallerscheinungen - oder auch die intermittierenden Störungen bei der Spinalkanalstenose - sowie Auswirkungen auf die inneren Organe (z. B. Atemfunktionsstörungen) sind zusätzlich zu berücksichtigen. Bei außergewöhnlichen Schmerzsyndromen kann auch ohne nachweisbare neurologische Ausfallerscheinungen (z. B. Postdiskotomiesyndrom) ein GdS über 30 in Betracht kommen."
+    },
+    {
+      "id": "bandscheibe",
+      "system": "wirbelsaeule",
+      "nr": "18.9",
+      "name": "Bandscheibenschäden (Bandscheibenvorfall)",
+      "suche": [
+        "bandscheibenvorfall",
+        "bandscheibe",
+        "bandscheibenschaden",
+        "ischias",
+        "postdiskotomiesyndrom"
+      ],
+      "stufen": [
+        {
+          "text": "ohne Bewegungseinschränkung oder Instabilität",
+          "von": 0,
+          "bis": 0
+        },
+        {
+          "text": "mit geringen funktionellen Auswirkungen (Verformung, rezidivierende oder anhaltende Bewegungseinschränkung oder Instabilität geringen Grades, seltene und kurz dauernd auftretende leichte Wirbelsäulensyndrome)",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "mit mittelgradigen funktionellen Auswirkungen in einem Wirbelsäulenabschnitt (Verformung, häufig rezidivierende oder anhaltende Bewegungseinschränkung oder Instabilität mittleren Grades, häufig rezidivierende und über Tage andauernde Wirbelsäulensyndrome)",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "mit schweren funktionellen Auswirkungen in einem Wirbelsäulenabschnitt (Verformung, häufig rezidivierende oder anhaltende Bewegungseinschränkung oder Instabilität schweren Grades, häufig rezidivierende und Wochen andauernde ausgeprägte Wirbelsäulensyndrome)",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "mit mittelgradigen bis schweren funktionellen Auswirkungen in zwei Wirbelsäulenabschnitten",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "mit besonders schweren Auswirkungen (z. B. Versteifung großer Teile der Wirbelsäule; anhaltende Ruhigstellung durch Rumpforthese, die drei Wirbelsäulenabschnitte umfasst [z. B. Milwaukee-Korsett]; schwere Skoliose [ab ca. 70° nach Cobb])",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "bei schwerster Belastungsinsuffizienz bis zur Geh- und Stehunfähigkeit",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Der GdS bei angeborenen und erworbenen Wirbelsäulenschäden (einschließlich Bandscheibenschäden, Scheuermann-Krankheit, Spondylolisthesis, Spinalkanalstenose und dem sogenannten Postdiskotomiesyndrom) ergibt sich primär aus dem Ausmaß der Bewegungseinschränkung, der Wirbelsäulenverformung und -instabilität sowie aus der Anzahl der betroffenen Wirbelsäulenabschnitte."
+    },
+    {
+      "id": "beckenschaeden",
+      "system": "wirbelsaeule",
+      "nr": "18.10",
+      "name": "Beckenschäden",
+      "suche": [
+        "becken",
+        "beckenbruch",
+        "iliosakralgelenk",
+        "isg-syndrom"
+      ],
+      "stufen": [
+        {
+          "text": "ohne funktionelle Auswirkungen",
+          "von": 0,
+          "bis": 0
+        },
+        {
+          "text": "mit geringen funktionellen Auswirkungen (z. B. stabiler Beckenring, degenerative Veränderungen der Kreuz-Darmbeingelenke)",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "mit mittelgradigen funktionellen Auswirkungen (z. B. instabiler Beckenring einschließlich Sekundärarthrose)",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "mit schweren funktionellen Auswirkungen und Deformierung",
+          "von": 30,
+          "bis": 40
+        }
+      ]
+    },
+    {
+      "id": "schulter-endoprothese",
+      "system": "arme",
+      "nr": "18.12",
+      "name": "Endoprothese des Schultergelenks",
+      "suche": [
+        "schulterprothese",
+        "schulter-tep",
+        "schulter endoprothese"
+      ],
+      "stufen": [
+        {
+          "text": "bei einseitiger Endoprothese beträgt der GdS mindestens 20",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "bei beidseitiger Endoprothese beträgt der GdS mindestens 40",
+          "von": 40,
+          "bis": 40
+        }
+      ],
+      "hinweis": "Es werden Mindest-GdS angegeben, die für Endoprothesen bei bestmöglichem Behandlungsergebnis gelten. Bei eingeschränkter Versorgungsqualität sind höhere Werte angemessen."
+    },
+    {
+      "id": "ellenbogen-endoprothese",
+      "system": "arme",
+      "nr": "18.12",
+      "name": "Totalendoprothese des Ellenbogengelenks",
+      "suche": [
+        "ellenbogenprothese",
+        "ellenbogen-tep",
+        "ellenbogen endoprothese"
+      ],
+      "stufen": [
+        {
+          "text": "bei einseitiger Totalendoprothese beträgt der GdS mindestens 30",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "bei beidseitiger Totalendoprothese beträgt der GdS mindestens 50",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Es werden Mindest-GdS angegeben, die für Endoprothesen bei bestmöglichem Behandlungsergebnis gelten. Bei eingeschränkter Versorgungsqualität sind höhere Werte angemessen."
+    },
+    {
+      "id": "schulter",
+      "system": "arme",
+      "nr": "18.13",
+      "name": "Bewegungseinschränkung und Versteifung des Schultergelenks",
+      "suche": [
+        "schulter",
+        "schulterarthrose",
+        "frozen shoulder",
+        "rotatorenmanschette",
+        "impingement"
+      ],
+      "stufen": [
+        {
+          "text": "Armhebung nur bis zu 120° mit entsprechender Einschränkung der Dreh- und Spreizfähigkeit",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "Armhebung nur bis zu 90° mit entsprechender Einschränkung der Dreh- und Spreizfähigkeit",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "Versteifung des Schultergelenks in günstiger Stellung bei gut beweglichem Schultergürtel",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Versteifung des Schultergelenks in ungünstiger Stellung oder bei gestörter Beweglichkeit des Schultergürtels",
+          "von": 40,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "schulter-instabilitaet",
+      "system": "arme",
+      "nr": "18.13",
+      "name": "Instabilität des Schultergelenks",
+      "suche": [
+        "schulterluxation",
+        "ausgerenkte schulter",
+        "schulterinstabilitaet"
+      ],
+      "stufen": [
+        {
+          "text": "geringen Grades, auch seltene Ausrenkung (in Abständen von 1 Jahr und mehr)",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "mittleren Grades, auch häufigere Ausrenkung",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "schweren Grades (auch Schlottergelenk), auch ständige Ausrenkung",
+          "von": 40,
+          "bis": 40
+        }
+      ]
+    },
+    {
+      "id": "ellenbogen",
+      "system": "arme",
+      "nr": "18.13",
+      "name": "Bewegungseinschränkung und Versteifung des Ellenbogengelenks",
+      "suche": [
+        "ellenbogen",
+        "ellenbogenarthrose",
+        "tennisarm"
+      ],
+      "stufen": [
+        {
+          "text": "Bewegungseinschränkung geringen Grades (Streckung/Beugung bis 0-30-120 bei freier Unterarmdrehbeweglichkeit)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "Bewegungseinschränkung stärkeren Grades (insbesondere der Beugung einschließlich Einschränkung der Unterarmdrehbeweglichkeit)",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "Versteifung des Ellenbogengelenks einschließlich Aufhebung der Unterarmdrehbewegung in günstiger Stellung",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Versteifung in ungünstiger Stellung",
+          "von": 40,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "handgelenk",
+      "system": "arme",
+      "nr": "18.13",
+      "name": "Bewegungseinschränkung und Versteifung des Handgelenks",
+      "suche": [
+        "handgelenk",
+        "handgelenksarthrose",
+        "rhizarthrose",
+        "kahnbein"
+      ],
+      "stufen": [
+        {
+          "text": "Bewegungseinschränkung geringen Grades (z. B. Streckung/Beugung bis 30-0-40)",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "Bewegungseinschränkung stärkeren Grades",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "Versteifung des Handgelenks in günstiger Stellung (leichte Dorsalextension)",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "Versteifung in ungünstiger Stellung",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Nicht oder mit Deformierung verheilte Brüche oder Luxationen der Handwurzelknochen oder eines oder mehrerer Mittelhandknochen mit sekundärer Funktionsbeeinträchtigung",
+          "von": 10,
+          "bis": 30
+        }
+      ]
+    },
+    {
+      "id": "armverlust",
+      "system": "arme",
+      "nr": "18.13",
+      "name": "Verlust eines Armes oder der Hand (Amputation)",
+      "suche": [
+        "armamputation",
+        "armverlust",
+        "handverlust",
+        "amputation arm"
+      ],
+      "stufen": [
+        {
+          "text": "Verlust eines Armes und Beines",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "Verlust eines Armes im Schultergelenk oder mit sehr kurzem Oberarmstumpf",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "Verlust eines Armes im Oberarm oder im Ellenbogengelenk",
+          "von": 70,
+          "bis": 70
+        },
+        {
+          "text": "Verlust eines Armes im Unterarm mit einer Stumpflänge bis 7 cm",
+          "von": 60,
+          "bis": 60
+        },
+        {
+          "text": "Verlust eines Armes im Unterarm",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Verlust der ganzen Hand",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Bei ausgesprochen ungünstigen Stumpfverhältnissen, bei nicht nur vorübergehenden Stumpfkrankheiten sowie bei nicht unwesentlicher Funktionsbeeinträchtigung des benachbarten Gelenkes sind diese Sätze im allgemeinen um 10 zu erhöhen, unabhängig davon, ob Körperersatzstücke getragen werden oder nicht."
+    },
+    {
+      "id": "fingerverlust",
+      "system": "arme",
+      "nr": "18.13",
+      "name": "Verlust von Fingern",
+      "suche": [
+        "fingerverlust",
+        "fingeramputation",
+        "daumenverlust",
+        "finger"
+      ],
+      "stufen": [
+        {
+          "text": "Verlust des Daumenendgliedes",
+          "von": 0,
+          "bis": 0
+        },
+        {
+          "text": "Verlust eines Daumens",
+          "von": 25,
+          "bis": 25
+        },
+        {
+          "text": "Verlust beider Daumen",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "Verlust des Zeigefingers, Mittelfingers, Ringfingers oder Kleinfingers, auch mit Teilen des dazugehörigen Mittelhandknochens",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "Verlust von zwei Fingern mit Einschluss des Daumens",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Verlust aller fünf Finger einer Hand",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Verlust aller zehn Finger",
+          "von": 100,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Obige Sätze gelten für den Gesamtverlust der Finger bei reizlosen Stumpfverhältnissen. Bei Verlust einzelner Fingerglieder sind sie herabzusetzen, bei schlechten Stumpfverhältnissen zu erhöhen."
+    },
+    {
+      "id": "nervenausfall-arm",
+      "system": "arme",
+      "nr": "18.13",
+      "name": "Nervenausfälle am Arm (vollständig)",
+      "suche": [
+        "armplexus",
+        "karpaltunnel",
+        "radialislaehmung",
+        "ulnaris",
+        "medianus"
+      ],
+      "stufen": [
+        {
+          "text": "Armplexus",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "oberer Armplexus",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "unterer Armplexus",
+          "von": 60,
+          "bis": 60
+        },
+        {
+          "text": "N. radialis, ganzer Nerv",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "N. ulnaris, proximal oder distal",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "N. medianus, proximal",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "N. medianus, distal",
+          "von": 30,
+          "bis": 30
+        }
+      ],
+      "hinweis": "Trophische Störungen sind zusätzlich zu berücksichtigen; Teilausfälle der genannten Nerven sind entsprechend geringer zu bewerten."
+    },
+    {
+      "id": "hueft-endoprothese",
+      "system": "beine",
+      "nr": "18.12",
+      "name": "Endoprothese des Hüftgelenks (Hüft-TEP)",
+      "suche": [
+        "hueft-tep",
+        "hüft-tep",
+        "hueftprothese",
+        "hüftprothese",
+        "kuenstliches hueftgelenk"
+      ],
+      "stufen": [
+        {
+          "text": "bei einseitiger Endoprothese beträgt der GdS mindestens 10",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "bei beidseitiger Endoprothese beträgt der GdS mindestens 20",
+          "von": 20,
+          "bis": 20
+        }
+      ],
+      "hinweis": "Es werden Mindest-GdS angegeben, die für Endoprothesen bei bestmöglichem Behandlungsergebnis gelten. Bei eingeschränkter Versorgungsqualität sind höhere Werte angemessen."
+    },
+    {
+      "id": "knie-endoprothese",
+      "system": "beine",
+      "nr": "18.12",
+      "name": "Endoprothese des Kniegelenks (Knie-TEP)",
+      "suche": [
+        "knie-tep",
+        "knieprothese",
+        "kuenstliches kniegelenk",
+        "künstliches kniegelenk",
+        "schlittenprothese"
+      ],
+      "stufen": [
+        {
+          "text": "bei einseitiger Totalendoprothese beträgt der GdS mindestens 20",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "bei beidseitiger Totalendoprothese beträgt der GdS mindestens 30",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "bei einseitiger Teilendoprothese beträgt der GdS mindestens 10",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "bei beidseitiger Teilendoprothese beträgt der GdS mindestens 20",
+          "von": 20,
+          "bis": 20
+        }
+      ],
+      "hinweis": "Es werden Mindest-GdS angegeben, die für Endoprothesen bei bestmöglichem Behandlungsergebnis gelten. Bei eingeschränkter Versorgungsqualität sind höhere Werte angemessen."
+    },
+    {
+      "id": "sprunggelenk-endoprothese",
+      "system": "beine",
+      "nr": "18.12",
+      "name": "Endoprothese des oberen Sprunggelenks",
+      "suche": [
+        "sprunggelenkprothese",
+        "osg-prothese",
+        "sprunggelenk-tep"
+      ],
+      "stufen": [
+        {
+          "text": "bei einseitiger Endoprothese beträgt der GdS mindestens 10",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "bei beidseitiger Endoprothese beträgt der GdS mindestens 20",
+          "von": 20,
+          "bis": 20
+        }
+      ],
+      "hinweis": "Es werden Mindest-GdS angegeben, die für Endoprothesen bei bestmöglichem Behandlungsergebnis gelten. Bei eingeschränkter Versorgungsqualität sind höhere Werte angemessen."
+    },
+    {
+      "id": "huefte",
+      "system": "beine",
+      "nr": "18.14",
+      "name": "Bewegungseinschränkung der Hüftgelenke (z. B. Hüftarthrose)",
+      "suche": [
+        "huefte",
+        "hüfte",
+        "coxarthrose",
+        "hueftarthrose",
+        "hüftarthrose"
+      ],
+      "stufen": [
+        {
+          "text": "geringen Grades (z. B. Streckung/Beugung bis zu 0-10-90 mit entsprechender Einschränkung der Dreh- und Spreizfähigkeit), einseitig",
+          "von": 10,
+          "bis": 20
+        },
+        {
+          "text": "geringen Grades, beidseitig",
+          "von": 20,
+          "bis": 30
+        },
+        {
+          "text": "mittleren Grades (z. B. Streckung/Beugung bis zu 0-30-90 mit entsprechender Einschränkung der Dreh- und Spreizfähigkeit), einseitig",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "mittleren Grades, beidseitig",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "stärkeren Grades, einseitig",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "stärkeren Grades, beidseitig",
+          "von": 60,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Mit Bild gebenden Verfahren festgestellte Veränderungen (z. B. degenerativer Art) allein rechtfertigen noch nicht die Annahme eines GdS."
+    },
+    {
+      "id": "hueftversteifung",
+      "system": "beine",
+      "nr": "18.14",
+      "name": "Versteifung der Hüftgelenke",
+      "suche": [
+        "hueftversteifung",
+        "hüftversteifung",
+        "arthrodese huefte"
+      ],
+      "stufen": [
+        {
+          "text": "Versteifung eines Hüftgelenks in günstiger Stellung",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "Versteifung eines Hüftgelenks in ungünstiger Stellung",
+          "von": 50,
+          "bis": 60
+        },
+        {
+          "text": "Versteifung beider Hüftgelenke je nach Stellung",
+          "von": 80,
+          "bis": 100
+        }
+      ]
+    },
+    {
+      "id": "knie",
+      "system": "beine",
+      "nr": "18.14",
+      "name": "Bewegungseinschränkung im Kniegelenk (z. B. Kniearthrose)",
+      "suche": [
+        "knie",
+        "gonarthrose",
+        "kniearthrose",
+        "meniskus",
+        "knieschaden"
+      ],
+      "stufen": [
+        {
+          "text": "geringen Grades (z. B. Streckung/Beugung bis 0-0-90), einseitig",
+          "von": 0,
+          "bis": 10
+        },
+        {
+          "text": "geringen Grades, beidseitig",
+          "von": 10,
+          "bis": 20
+        },
+        {
+          "text": "mittleren Grades (z. B. Streckung/Beugung 0-10-90), einseitig",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "mittleren Grades, beidseitig",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "stärkeren Grades (z. B. Streckung/Beugung 0-30-90), einseitig",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "stärkeren Grades, beidseitig",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Mit Bild gebenden Verfahren festgestellte Veränderungen (z. B. degenerativer Art) allein rechtfertigen noch nicht die Annahme eines GdS. Ebenso kann die Tatsache, dass eine Operation an einer Gliedmaße oder an der Wirbelsäule (z. B. Meniskusoperation, Bandscheibenoperation, Synovialektomie) durchgeführt wurde, für sich allein nicht die Annahme eines GdS begründen."
+    },
+    {
+      "id": "knorpelschaden-knie",
+      "system": "beine",
+      "nr": "18.14",
+      "name": "Ausgeprägte Knorpelschäden der Kniegelenke",
+      "suche": [
+        "knorpelschaden",
+        "chondromalazie",
+        "chondromalacia patellae",
+        "knorpel knie"
+      ],
+      "stufen": [
+        {
+          "text": "mit anhaltenden Reizerscheinungen, einseitig, ohne Bewegungseinschränkung",
+          "von": 10,
+          "bis": 30
+        },
+        {
+          "text": "mit anhaltenden Reizerscheinungen, einseitig, mit Bewegungseinschränkung",
+          "von": 20,
+          "bis": 40
+        }
+      ]
+    },
+    {
+      "id": "kniebandapparat",
+      "system": "beine",
+      "nr": "18.14",
+      "name": "Lockerung des Kniebandapparates (z. B. nach Kreuzbandriss)",
+      "suche": [
+        "kreuzband",
+        "kreuzbandriss",
+        "knieinstabilitaet",
+        "bandapparat"
+      ],
+      "stufen": [
+        {
+          "text": "muskulär kompensierbar",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "unvollständig kompensierbar, Gangunsicherheit",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "Versorgung mit einem Stützapparat, je nach Achsenfehlstellung",
+          "von": 30,
+          "bis": 50
+        }
+      ]
+    },
+    {
+      "id": "knieversteifung",
+      "system": "beine",
+      "nr": "18.14",
+      "name": "Versteifung der Kniegelenke",
+      "suche": [
+        "knieversteifung",
+        "versteiftes knie",
+        "arthrodese knie"
+      ],
+      "stufen": [
+        {
+          "text": "Versteifung eines Kniegelenks in günstiger Stellung (Beugestellung von 10-15°)",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Versteifung eines Kniegelenks in ungünstiger Stellung",
+          "von": 40,
+          "bis": 60
+        },
+        {
+          "text": "Versteifung beider Kniegelenke",
+          "von": 80,
+          "bis": 80
+        }
+      ]
+    },
+    {
+      "id": "beinverlust",
+      "system": "beine",
+      "nr": "18.14",
+      "name": "Verlust eines oder beider Beine (Amputation)",
+      "suche": [
+        "beinamputation",
+        "oberschenkelamputation",
+        "unterschenkelamputation",
+        "amputation bein"
+      ],
+      "stufen": [
+        {
+          "text": "Verlust beider Beine im Oberschenkel",
+          "von": 100,
+          "bis": 100
+        },
+        {
+          "text": "Verlust eines Beines im Hüftgelenk oder mit sehr kurzem Oberschenkelstumpf",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "Verlust eines Beines im Oberschenkel (einschließlich Absetzung nach Gritti)",
+          "von": 70,
+          "bis": 70
+        },
+        {
+          "text": "Verlust eines Beines im Unterschenkel bei genügender Funktionstüchtigkeit des Stumpfes und der Gelenke",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "Verlust eines Beines im Unterschenkel bei ungenügender Funktionstüchtigkeit des Stumpfes und der Gelenke",
+          "von": 60,
+          "bis": 60
+        },
+        {
+          "text": "Verlust beider Beine im Unterschenkel",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "Verlust beider Beine im Unterschenkel bei beidseitig ungünstigen Stumpfverhältnissen",
+          "von": 100,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Bei ausgesprochen ungünstigen Stumpfverhältnissen, bei nicht nur vorübergehenden Stumpfkrankheiten sowie bei nicht unwesentlicher Funktionsbeeinträchtigung des benachbarten Gelenkes sind diese Sätze im allgemeinen um 10 zu erhöhen, unabhängig davon, ob Körperersatzstücke getragen werden oder nicht."
+    },
+    {
+      "id": "fuss-zehenverlust",
+      "system": "beine",
+      "nr": "18.14",
+      "name": "Teilverlust eines Fußes, Verlust von Zehen",
+      "suche": [
+        "vorfussamputation",
+        "zehenamputation",
+        "zehenverlust",
+        "diabetischer fuss"
+      ],
+      "stufen": [
+        {
+          "text": "Absetzung nach Chopart, einseitig, guter Stumpf",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Absetzung nach Lisfranc oder im Bereich der Mittelfußknochen nach Sharp, einseitig, guter Stumpf",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Verlust einer Zehe",
+          "von": 0,
+          "bis": 0
+        },
+        {
+          "text": "Verlust einer Großzehe",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "Verlust aller Zehen an einem Fuß",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "Verlust aller Zehen an beiden Füßen",
+          "von": 30,
+          "bis": 30
+        }
+      ]
+    },
+    {
+      "id": "beinverkuerzung",
+      "system": "beine",
+      "nr": "18.14",
+      "name": "Beinverkürzung",
+      "suche": [
+        "beinverkuerzung",
+        "beinverkürzung",
+        "beinlaengendifferenz"
+      ],
+      "stufen": [
+        {
+          "text": "bis 2,5 cm",
+          "von": 0,
+          "bis": 0
+        },
+        {
+          "text": "über 2,5 cm bis 4 cm",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "über 4 cm bis 6 cm",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "über 6 cm wenigstens 30",
+          "von": 30,
+          "bis": 30
+        }
+      ]
+    },
+    {
+      "id": "sprunggelenk",
+      "system": "beine",
+      "nr": "18.14",
+      "name": "Versteifung und Bewegungseinschränkung der Sprunggelenke",
+      "suche": [
+        "sprunggelenk",
+        "sprunggelenksarthrose",
+        "knoechel",
+        "knöchel"
+      ],
+      "stufen": [
+        {
+          "text": "Versteifung des oberen Sprunggelenks in günstiger Stellung (Plantarflexion um 5° bis 15°)",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "Versteifung des unteren Sprunggelenks in günstiger Stellung (Mittelstellung)",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "Versteifung des oberen und unteren Sprunggelenks in günstiger Stellung",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "Versteifung des oberen und unteren Sprunggelenks in ungünstiger Stellung",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "Bewegungseinschränkung im oberen Sprunggelenk geringen Grades",
+          "von": 0,
+          "bis": 0
+        },
+        {
+          "text": "Bewegungseinschränkung im oberen Sprunggelenk mittleren Grades (Heben/Senken 0-0-30)",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "Bewegungseinschränkung im oberen Sprunggelenk stärkeren Grades",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "Bewegungseinschränkung im unteren Sprunggelenk",
+          "von": 0,
+          "bis": 10
+        }
+      ]
+    },
+    {
+      "id": "fussdeformitaet",
+      "system": "beine",
+      "nr": "18.14",
+      "name": "Fußdeformitäten (Senk-Spreizfuß, Hohlfuß, Knickfuß, Klumpfuß)",
+      "suche": [
+        "plattfuss",
+        "spreizfuss",
+        "senkfuss",
+        "klumpfuss",
+        "hallux valgus"
+      ],
+      "stufen": [
+        {
+          "text": "ohne wesentliche statische Auswirkungen (z. B. Senk-Spreizfuß, Hohlfuß, Knickfuß, auch posttraumatisch)",
+          "von": 0,
+          "bis": 0
+        },
+        {
+          "text": "mit statischer Auswirkung je nach Funktionsstörung geringen Grades",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "mit statischer Auswirkung stärkeren Grades",
+          "von": 20,
+          "bis": 20
+        },
+        {
+          "text": "Klumpfuß je nach Funktionsstörung, einseitig",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "Klumpfuß je nach Funktionsstörung, beidseitig",
+          "von": 30,
+          "bis": 60
+        },
+        {
+          "text": "Versteifung der Großzehengelenke in ungünstiger Stellung (z. B. Plantarflexion im Grundgelenk über 10°)",
+          "von": 20,
+          "bis": 20
+        }
+      ]
+    },
+    {
+      "id": "nervenausfall-bein",
+      "system": "beine",
+      "nr": "18.14",
+      "name": "Nervenausfälle am Bein (vollständig)",
+      "suche": [
+        "peroneuslaehmung",
+        "fussheberschwaeche",
+        "fußheberschwäche",
+        "ischiadicus"
+      ],
+      "stufen": [
+        {
+          "text": "Plexus lumbosacralis",
+          "von": 80,
+          "bis": 80
+        },
+        {
+          "text": "N. femoralis",
+          "von": 40,
+          "bis": 40
+        },
+        {
+          "text": "N. ischiadicus proximal",
+          "von": 60,
+          "bis": 60
+        },
+        {
+          "text": "N. ischiadicus distal (Ausfall der Nn. peronaeus communis und tibialis)",
+          "von": 50,
+          "bis": 50
+        },
+        {
+          "text": "N. peronaeus communis oder profundus",
+          "von": 30,
+          "bis": 30
+        },
+        {
+          "text": "N. tibialis",
+          "von": 30,
+          "bis": 30
+        }
+      ],
+      "hinweis": "Trophische Störungen sind zusätzlich zu berücksichtigen. Teilausfälle der genannten Nerven sind entsprechend geringer zu bewerten."
+    },
+    {
+      "id": "rheumatoide-arthritis",
+      "system": "rheuma",
+      "nr": "18.2.1",
+      "name": "Entzündlich-rheumatische Krankheiten (z. B. rheumatoide Arthritis, Bechterew-Krankheit)",
+      "suche": [
+        "rheuma",
+        "rheumatoide arthritis",
+        "polyarthritis",
+        "bechterew",
+        "psoriasis-arthritis"
+      ],
+      "stufen": [
+        {
+          "text": "ohne wesentliche Funktionseinschränkung mit leichten Beschwerden",
+          "von": 10,
+          "bis": 10
+        },
+        {
+          "text": "mit geringen Auswirkungen (leichtgradige Funktionseinbußen und Beschwerden, je nach Art und Umfang des Gelenkbefalls, geringe Krankheitsaktivität)",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "mit mittelgradigen Auswirkungen (dauernde erhebliche Funktionseinbußen und Beschwerden, therapeutisch schwer beeinflussbare Krankheitsaktivität)",
+          "von": 50,
+          "bis": 70
+        },
+        {
+          "text": "mit schweren Auswirkungen (irreversible Funktionseinbußen, hochgradige Progredienz)",
+          "von": 80,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Auswirkungen über sechs Monate anhaltender aggressiver Therapien sind gegebenenfalls zusätzlich zu berücksichtigen."
+    },
+    {
+      "id": "kollagenosen-vaskulitiden",
+      "system": "rheuma",
+      "nr": "18.2.2",
+      "name": "Kollagenosen und Vaskulitiden (z. B. systemischer Lupus erythematodes, Sklerodermie, Polymyalgia rheumatica)",
+      "suche": [
+        "lupus",
+        "sklerodermie",
+        "vaskulitis",
+        "polymyalgia rheumatica",
+        "kollagenose"
+      ],
+      "stufen": [
+        {
+          "text": "Für die Dauer einer über sechs Monate anhaltenden aggressiven Therapie soll ein GdS von 50 nicht unterschritten werden.",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Die Beurteilung des GdS bei Kollagenosen und Vaskulitiden richtet sich nach Art und Ausmaß der jeweiligen Organbeteiligung sowie den Auswirkungen auf den Allgemeinzustand, wobei auch eine Analogie zu den Muskelkrankheiten in Betracht kommen kann."
+    },
+    {
+      "id": "fibromyalgie",
+      "system": "rheuma",
+      "nr": "18.4",
+      "name": "Fibromyalgie, Chronisches Fatigue Syndrom (CFS), Multiple Chemical Sensitivity (MCS)",
+      "suche": [
+        "fibromyalgie",
+        "cfs",
+        "me/cfs",
+        "chronisches fatigue syndrom",
+        "mcs"
+      ],
+      "stufen": [],
+      "hinweis": "Die Fibromyalgie, das Chronische Fatigue Syndrom (CFS), die Multiple Chemical Sensitivity (MCS) und ähnliche Syndrome sind jeweils im Einzelfall entsprechend der funktionellen Auswirkungen analog zu beurteilen."
+    },
+    {
+      "id": "osteoporose",
+      "system": "rheuma",
+      "nr": "18.1",
+      "name": "Osteoporose und andere osteopenische Krankheiten",
+      "suche": [
+        "osteoporose",
+        "knochenschwund",
+        "osteopenie"
+      ],
+      "stufen": [],
+      "hinweis": "Bei ausgeprägten osteopenischen Krankheiten (z. B. Osteoporose, Osteopenie bei hormonellen Störungen, gastrointestinalen Resorptionsstörungen, Nierenschäden) ist der GdS vor allem von der Funktionsbeeinträchtigung und den Schmerzen abhängig. Eine ausschließlich messtechnisch nachgewiesene Minderung des Knochenmineralgehalts rechtfertigt noch nicht die Annahme eines GdS."
+    },
+    {
+      "id": "muskelkrankheiten",
+      "system": "rheuma",
+      "nr": "18.6",
+      "name": "Muskelkrankheiten (Muskelschwäche)",
+      "suche": [
+        "muskeldystrophie",
+        "myasthenie",
+        "muskelschwaeche",
+        "muskelschwäche"
+      ],
+      "stufen": [
+        {
+          "text": "mit geringen Auswirkungen (vorzeitige Ermüdung, gebrauchsabhängige Unsicherheiten)",
+          "von": 20,
+          "bis": 40
+        },
+        {
+          "text": "mit mittelgradigen Auswirkungen (zunehmende Gelenkkontrakturen und Deformitäten, Aufrichten aus dem Liegen nicht mehr möglich, Unmöglichkeit des Treppensteigens)",
+          "von": 50,
+          "bis": 80
+        },
+        {
+          "text": "mit schweren Auswirkungen (bis zur Geh- und Stehunfähigkeit und Gebrauchsunfähigkeit der Arme)",
+          "von": 90,
+          "bis": 100
+        }
+      ],
+      "hinweis": "Zusätzlich sind bei einzelnen Muskelkrankheiten Auswirkungen auf innere Organe (z. B. Einschränkung der Lungenfunktion und/oder der Herzleistung durch Brustkorbdeformierung) oder Augenmuskel-, Schluck- oder Sprechstörungen (z. B. bei der Myasthenie) zu berücksichtigen."
+    },
+    {
+      "id": "kleinwuchs",
+      "system": "rheuma",
+      "nr": "18.7",
+      "name": "Kleinwuchs",
+      "suche": [
+        "kleinwuchs",
+        "minderwuchs",
+        "achondroplasie",
+        "koerpergroesse"
+      ],
+      "stufen": [
+        {
+          "text": "Körpergröße nach Abschluss des Wachstums über 130 bis 140 cm",
+          "von": 30,
+          "bis": 40
+        },
+        {
+          "text": "Körpergröße nach Abschluss des Wachstums über 120 bis 130 cm",
+          "von": 50,
+          "bis": 50
+        }
+      ],
+      "hinweis": "Bei 120 cm und darunter kommen entsprechend höhere Werte in Betracht. Dieser GdS ist auf harmonischen Körperbau bezogen."
+    }
+  ]
+}

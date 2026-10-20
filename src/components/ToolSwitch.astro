@@ -1,0 +1,17 @@
+---
+/** Ein Ort, an dem jede Rechnerart ihrer Komponente zugeordnet wird (Rechnerseiten, Einbettung). */
+import GesamtRechner from './calc/GesamtRechner';
+import TabelleRechner from './calc/TabelleRechner';
+import PauschbetragRechner from './calc/PauschbetragRechner';
+import MerkzeichenRechner from './calc/MerkzeichenRechner';
+import UrlaubRechner from './calc/UrlaubRechner';
+import type { Locale } from '../i18n/routes';
+import type { Tool } from '../lib/guide-types';
+interface Props { tool?: Tool; lang: Locale; methodHref?: string; preset?: Record<string, never> }
+const { tool, lang, methodHref, preset = {} } = Astro.props;
+---
+{tool === 'gesamt' && <GesamtRechner client:load methodHref={methodHref} preset={preset} />}
+{tool === 'tabelle' && <TabelleRechner client:load methodHref={methodHref} preset={preset} />}
+{tool === 'pauschbetrag' && <PauschbetragRechner client:load methodHref={methodHref} preset={preset} />}
+{tool === 'merkzeichen' && <MerkzeichenRechner client:load methodHref={methodHref} preset={preset} />}
+{tool === 'zusatzurlaub' && <UrlaubRechner client:load methodHref={methodHref} preset={preset} />}

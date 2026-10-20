@@ -1,0 +1,26 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { YEAR, LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE, SITE_NAMES, LANG_TAGS } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { personSchema, organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+const lang = 'de';
+---
+<PageLayout title="GdB-Rechner: wer den Rechner zum Gesamt-GdB macht" description="Wer hinter dem Rechner zu Gesamt-GdB, Pauschbetrag und Merkzeichen steht, warum es ihn gibt, wie jede Regel an der Versorgungsmedizin-Verordnung geprüft wird und was wir nicht tun." lang={lang} jsonLd={[personSchema(lang), organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Start', path: route('home', lang) }, { name: 'Über uns', path: route('about', lang) }])]} breadcrumbs={[{ label: 'Über uns' }]}>
+  <header class="mb-6"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">Über {SITE_NAMES.de}</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>{SITE_NAMES.de} wird von Radif Partners herausgegeben, einem unabhängigen Herausgeber von Rechnern. Anlass war das Lesen der Suchergebnisse zum Grad der Behinderung im Oktober 2026, ein Jahr nach der Neufassung der Versorgungsmedizin-Verordnung: Viele Seiten erklärten, dass man die Einzelwerte nicht addiert, zeigten aber nicht, was stattdessen gilt; manche nannten noch die gestrichenen Rechenbeispiele, andere veraltete Pauschbeträge. Einen Rechner, der den Wortlaut von Teil A Nummer 3 offenlegt, fanden wir nicht.</p>
+    <h2>Was diese Seite besser machen will als der erste Treffer</h2>
+    <p>Sie zeigt für mehrere Leiden den Gesamt-GdB als Spanne mit Richtwert, Schritt für Schritt nach den Nummern der Verordnung, und sagt offen, wo die Verordnung keine Zahl nennt und die Seite eine Annahme trifft. Zu jedem Ergebnis stehen die Rechte mit den Beträgen und Fristen von {YEAR} und ihrem Paragraphen. Es gibt keine Anmeldung, kein Formular und keinen Rückruf.</p>
+    <h2>Wie geprüft wird</h2>
+    <p>Grundlage sind die Versorgungsmedizin-Verordnung im Bundesgesetzblatt und auf gesetze-im-internet.de, das Einkommensteuergesetz, das Neunte und das Sechste Buch Sozialgesetzbuch, das Kraftfahrzeugsteuergesetz, der Rundfunkbeitragsstaatsvertrag und die Seiten der zuständigen Landesbehörden. Jede Regel läuft als automatischer Test; ein abweichender Wert stoppt die Veröffentlichung. Wie jede Zahl entsteht, steht unter <a href={route('method', lang)}>So rechnen wir</a>.</p>
+    <h2>Was wir nicht sind</h2>
+    <p>Kein Versorgungsamt und mit keiner Behörde verbunden, keine Arztpraxis, keine Anwaltskanzlei, kein Sozialverband. Wir bewerten keine Befunde, beraten nicht im Einzelfall und vermitteln nichts. Den Grad der Behinderung stellt allein die Behörde Ihres Landes fest.</p>
+    <h2>Finanzierung und Ihre Daten</h2>
+    <p>Der Rechner ist kostenlos. Was Sie über Ihre Gesundheit eintippen, bleibt in Ihrem Browser und wird nirgends gespeichert. Falls die Seite Werbung zeigt, dann nie über einem Rechner und nie im Ergebnis.</p>
+    <h2>Kontakt</h2>
+    <p>Ein Wert stimmt nicht, Ihr Bescheid weicht deutlich ab, ein Leiden fehlt in der Tabelle? Schreiben Sie an <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Siehe auch die <a href={route('editorial', lang)}>Redaktionsgrundsätze</a> und das <a href={route('terms', lang)}>Impressum</a>.</p>
+    <p class="text-sm text-navy-600">Rechtsstand {YEAR}, geprüft am <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, LANG_TAGS[lang])}</time>.</p>
+  </div>
+</PageLayout>

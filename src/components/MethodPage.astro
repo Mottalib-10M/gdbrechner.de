@@ -1,0 +1,68 @@
+---
+/** So rechnen wir (Vertrauensseite, RECETTE §8.2): Regel des Gesamt-GdB, Annahme der Seite, Rechte, Steuer, Tests, Grenzen, alle Quellen. */
+import PageLayout from '../layouts/PageLayout.astro';
+import { route, type Locale } from '../i18n/routes';
+import { P } from '../lib/engine/params';
+import { formatMoney, formatPercent, displayDate } from '../lib/format';
+import { breadcrumbSchema, webPageSchema } from '../lib/seo';
+import { CONTACT_EMAIL, REVIEW_CYCLE_MONTHS, LANG_TAGS } from '../data/site-config';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const $ = (n: number) => formatMoney(n, 0, lang);
+const pc = (x: number, d = 0) => formatPercent(x, d, lang);
+const dt = (iso: string) => displayDate(iso, LANG_TAGS[lang]);
+const A = P.gesamt.annahme, T = P.steuer.tarif, Z = P.steuer.zumutbar;
+const title = 'Gesamt-GdB berechnen 2026: Regeln und Annahmen offengelegt';
+const description = 'Wie der GdB-Rechner 2026 den Gesamt-GdB schätzt: Wortlaut der VersMedV Teil A Nr. 3, die Annahme der Seite, Pauschbeträge, Steuertarif, Tests und Grenzen.';
+const h1 = 'So rechnen wir';
+const path = route('method', lang);
+const sources = Object.values(P.sources);
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[webPageSchema({ name: h1, description, path, lang }), breadcrumbSchema([{ name: 'Start', path: route('home', lang) }, { name: h1, path }])]} breadcrumbs={[{ label: h1 }]}>
+  <header class="mb-6"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">{h1}</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Jeder Rechtswert und jede Zahl der Rechner steht in einer einzigen Parameterdatei, gelesen am <time datetime={P.retrieved_at}>{dt(P.retrieved_at)}</time> an den unten verlinkten Quellen. Rechner und Texte lesen nur aus dieser Datei.</p>
+    <h2>Die Regel des Gesamt-GdB</h2>
+    <p>Grundlage ist die Anlage zu § 2 der Versorgungsmedizin-Verordnung, Teil A Nummer 3, in der Fassung der Sechsten Änderungsverordnung vom 29. September 2025 ({P.versmedv.bgbl}, verkündet am {dt(P.versmedv.verkuendet)}, in Kraft seit {dt(P.versmedv.in_kraft)}). Der Rechner setzt sie in dieser Reihenfolge um:</p>
+    <ol>
+      <li>Nummer 3.1: Mehrere Leiden im selben Funktionssystem werden zuerst zu einem Wert dieses Systems zusammengefasst, nach denselben Regeln wie der Gesamt-GdB. Wer zwei Einträge im Bereich „Wirbelsäule“ macht, erhält also erst einen Wirbelsäulenwert.</li>
+      <li>Nummer 3.2: Ausgangswert ist das System mit dem höchsten Wert. Jedes weitere System erhöht nur, wenn es die Gesamtbeeinträchtigung „um mindestens 10“ verstärkt. Addition und Mittelung rechnet der Rechner nie.</li>
+      <li>Nummer 3.3: Sie wählen für jedes weitere Leiden den Zusammenhang mit dem stärksten. Die Verordnung sagt: nachteilige Auswirkung „in der Regel“ erhöhend (3.3.1), andere Lebensbereiche „häufig“ erhöhend (3.3.2), teilweise Überschneidung „kann“ erhöhen (3.3.3), vollständige Überschneidung „in der Regel“ keine Erhöhung (3.3.4).</li>
+      <li>Nummer 3.5: Ein Einzelwert von 10 erhöht in der Regel nicht. Ein Einzelwert von 20 erhöht vielfach nicht, das ist aber in jedem Fall zu prüfen.</li>
+      <li>Nummer 3.4: Das Ergebnis ist mit den Werten aus Teil B zu vergleichen. Diesen Vergleich kann der Rechner nicht ziehen; er steht im Rechenweg als Hinweis.</li>
+    </ol>
+    <h2>Die Annahme dieser Seite</h2>
+    <p>Die Verordnung nennt für keinen der vier Zusammenhänge eine Zahl. Bis zum 2. Oktober 2025 hieß es in Teil A, man könne „dem ersten GdS 10 oder 20 oder mehr Punkte hinzufügen“; dieser Satz und seine Beispiele sind gestrichen. Damit der Rechner trotzdem etwas Brauchbares zeigt, gibt er eine Spanne und einen Richtwert aus. Die Größen sind eine Annahme dieser Seite und gelten für jeden weiteren Bereich:</p>
+    <ul>
+      <li>Schrittgröße {A.schritt}, die kleinste wesentliche Erhöhung nach Nummer 3.2.</li>
+      <li>Weiterer Wert 10: Spanne 0 bis {A.max_bei_10}, Richtwert 0.</li>
+      <li>Weiterer Wert 20: Spanne 0 bis {A.schritt}; Richtwert {A.schritt} nur, wenn sich die Leiden verstärken, sonst 0; bei vollständiger Überschneidung 0.</li>
+      <li>Weiterer Wert 30 oder 40: verstärkend {A.schritt} bis {2 * A.schritt} (Richtwert {A.schritt}); andere Bereiche 0 bis {A.schritt} (Richtwert {A.schritt}); teilweise 0 bis {A.schritt} (Richtwert 0); dieselben Folgen 0.</li>
+      <li>Weiterer Wert ab {A.grosse_ab}: verstärkend {A.schritt} bis {3 * A.schritt} (Richtwert {2 * A.schritt}); andere Bereiche 0 bis {2 * A.schritt} (Richtwert {A.schritt}); teilweise 0 bis {A.schritt} (Richtwert {A.schritt}); dieselben Folgen 0.</li>
+    </ul>
+    <p>Die Werte jedes Schritts werden addiert, der Gesamtwert endet bei 100. Diese Annahme ist eine Lesart des Wortlauts, keine Regel der Behörde. Nach Teil A Nummer 1 sind die Werte der Tabelle „Anhaltswerte“, die Beurteilungsspannen lassen, und eine Abweichung ist zu begründen. Den Beweis, dass ein Leiden ein anderes verstärkt, führt die Behörde mit ärztlichen Unterlagen, nicht mit einer Formel.</p>
+    <h2>GdB-Tabelle</h2>
+    <p>Die Tabelle im Rechner ist eine Auswahl von rund 150 Einträgen aus Teil B, deren Wortlaut gekürzt ist. Einige Werte stehen im Text als 15 oder 25 (etwa Verlust einer Niere); der Gesamt-Rechner rundet sie auf Zehnerstufen. Wo Teil B keinen festen Wert nennt, etwa bei Multipler Sklerose, steht nur der Hinweis des Textes. Maßgeblich ist immer die vollständige Fassung der Verordnung.</p>
+    <h2>Steuerwirkung</h2>
+    <p>Pauschbetrag nach § 33b Abs. 3 EStG, seit dem Veranlagungszeitraum {P.pauschbetrag.seit_vz} unverändert: {P.pauschbetrag.stufen.map(([g, b]) => `GdB ${g}: ${$(b)}`).join(', ')}; mit H, Bl oder TBl {$(P.pauschbetrag.erhoeht)}. Fahrtkostenpauschale nach § 33 Abs. 2a: {$(P.fahrtkosten.klein)} ab GdB {P.fahrtkosten.gdb_klein} oder ab {P.fahrtkosten.gdb_klein_mit_g} mit G, {$(P.fahrtkosten.gross)} mit aG, Bl, TBl oder H; sie wird mit weiteren Krankheitskosten um die zumutbare Belastung gekürzt.</p>
+    <p>Einkommensteuer nach § 32a EStG 2026: Grundfreibetrag {$(T.grundfreibetrag)}, Spitzensatz {pc(T.z4_satz)} ab {$(T.zone3_bis + 1)}, {pc(T.z5_satz)} ab {$(T.zone4_bis + 1)}; Splitting nach Absatz 5. Solidaritätszuschlag {pc(P.steuer.soli.satz, 1)} mit Freigrenze {$(P.steuer.soli.freigrenze_einzel)} oder {$(P.steuer.soli.freigrenze_zusammen)} Einkommensteuer und Milderungszone. Zumutbare Belastung nach § 33 Abs. 3 mit den Grenzen {$(Z.grenze1)} und {$(Z.grenze2)}, stufenweise gerechnet, wie es der Bundesfinanzhof im Urteil vom 19. Januar 2017 (VI R 75/14) verlangt. Vereinfachung: Der Gesamtbetrag der Einkünfte wird dem eingegebenen zu versteuernden Einkommen gleichgesetzt; Kinderfreibeträge und Sonderausgaben sind nicht modelliert.</p>
+    <h2>Rechte nach GdB und Merkzeichen</h2>
+    <p>Zusatzurlaub nach § 208 SGB IX ({P.urlaub.tage_bei_5} Arbeitstage bei der Fünftagewoche, anteilig mit Aufrundung ab einem halben Tag), Kündigungsschutz nach §§ 168 und 173 (nach {P.kuendigung.wartezeit_monate} Monaten), Altersrente nach § 37 und § 236a SGB VI mit {pc(P.rente.abschlag_je_monat, 1)} Abschlag je Monat (§ 77), Wertmarke {$(P.wertmarke.jahr)} im Jahr oder {$(P.wertmarke.halbjahr)} im halben Jahr seit {dt(P.wertmarke.seit)}, Kraftfahrzeugsteuer nach § 3a KraftStG, Rundfunkbeitrag {P.rundfunk.ermaessigt.toLocaleString('de-DE', { minimumFractionDigits: 2 })} € statt {P.rundfunk.voll.toLocaleString('de-DE', { minimumFractionDigits: 2 })} € mit RF, Parkerleichterungen nach der Verwaltungsvorschrift zu § 46 StVO.</p>
+    <h2>Tests vor jeder Veröffentlichung</h2>
+    <ul>
+      <li>Jede Regel von Teil A Nummer 3 als Testfall: keine Addition, GdB 10 ohne Erhöhung, GdB 20 nur bei Verstärkung, vollständige Überschneidung ohne Erhöhung, Zusammenfassung im selben Funktionssystem, Obergrenze 100.</li>
+      <li>Alle Pauschbeträge, die Fahrtkostenpauschale an jeder Grenze, Zusatzurlaub bei 4 und 6 Arbeitstagen und anteilig, jede Zeile der Rententabelle.</li>
+      <li>Der Einkommensteuertarif 2026 an jeder Zonengrenze, Splitting und Solidaritätszuschlag.</li>
+    </ul>
+    <h2>Was die Rechner nicht können</h2>
+    <ul>
+      <li>Ihre Befunde bewerten. Welcher Einzelwert zu Ihrem Leiden passt, beurteilt der ärztliche Dienst der Behörde nach Berichten und Untersuchung.</li>
+      <li>Merkzeichen feststellen. Die Voraussetzungen stehen in der Rechnerbeschreibung; ob sie erfüllt sind, entscheidet die Behörde.</li>
+      <li>Rechtsberatung ersetzen. Bei einem Widerspruch helfen Sozialverbände, Rechtsanwälte für Sozialrecht und die Ergänzende unabhängige Teilhabeberatung.</li>
+    </ul>
+    <h2>Aktualisierung</h2>
+    <p>Durchsicht mindestens alle {REVIEW_CYCLE_MONTHS} Monate, dazu nach jeder Änderung der Versorgungsmedizin-Verordnung, des Einkommensteuertarifs, der Wertmarke oder des Rundfunkbeitrags. Fehler bitte an <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>Alle Quellen</h2>
+    <ul>{sources.map((s) => <li><a href={s.url} rel="nofollow noopener" target="_blank">{s.label.de}</a></li>)}</ul>
+  </div>
+</PageLayout>
