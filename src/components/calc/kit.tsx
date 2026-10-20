@@ -21,7 +21,7 @@ export function Zeilen({ rows, caption }: { rows: Zeile[]; caption?: string }) {
         {rows.map((r, i) => (
           <tr key={i} className={`${r.sep ? 'border-t-2 border-navy-800' : 'border-t border-navy-200'} ${r.strong ? 'font-semibold text-navy-900' : r.muted ? 'text-navy-600' : 'text-navy-800'}`}>
             <th scope="row" className="py-1.5 pr-3 text-left font-normal">{r.label}</th>
-            <td className="whitespace-nowrap py-1.5 pl-2 text-right">{r.value}</td>
+            <td className="py-1.5 pl-2 text-right sm:whitespace-nowrap">{r.value}</td>
           </tr>
         ))}
       </tbody>
