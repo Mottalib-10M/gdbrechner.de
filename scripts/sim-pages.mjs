@@ -13,7 +13,7 @@ for (const d of ['guides', 'rechner']) for (const f of readdirSync(new URL(`../s
   if (!f.endsWith('.ts')) continue;
   const p = (await jiti.import(`../src/content/${d}/${f}`)).default;
   if (!p.de.title) continue;
-  for (const l of ['de', 'en']) {
+  for (const l of ['de']) {
     const h = { lang: l, P, a: (_, t) => t, eur: (n) => String(n), num: (n) => String(n), pct: (x) => String(x), date: (x) => x,
       table: (hd, rows) => [...hd, ...rows.flat()].join(' '), src: (k, t) => t ?? P.sources[k].label[l] };
     const x = p[l];
@@ -29,4 +29,4 @@ for (let i = 0; i < pages.length; i++) for (let j = i + 1; j < pages.length; j++
   const r = new SequenceMatcher(a.t.split(' '), b.t.split(' ')).ratio() * 100;
   if (r > 20) { console.log(r.toFixed(1), a.k, b.k); n++; }
 }
-console.log(`${pages.length / 2} pages, ${n} paires > 20 %`);
+console.log(`${pages.length} pages, ${n} paires > 20 %`);
