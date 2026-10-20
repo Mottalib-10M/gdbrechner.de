@@ -13,6 +13,8 @@ import { Zeilen, Aktionen, Kopf, Hinweis, kasten, rahmen, raster, type Zeile } f
 interface Props { methodHref?: string; preset?: { system?: string; q?: string } }
 interface Wahl { id: string; stufe: number; gdb: number }
 const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ß/g, 'ss');
+/** Ohne Suchbegriff: drei häufig gesuchte Einträge. */
+const HAEUFIG = ['wirbelsaeulenschaeden', 'depression', 'diabetes'];
 const spanne = (v: number, b: number) => (v === b ? `${v}` : `${v} bis ${b}`);
 
 export default function TabelleRechner({ methodHref, preset = {} }: Props) {
@@ -30,6 +32,7 @@ export default function TabelleRechner({ methodHref, preset = {} }: Props) {
 
   const treffer = useMemo(() => {
     const n = norm(q.trim());
+    if (!n && sys === 'alle') return HAEUFIG.map((id) => EINTRAEGE.find((e) => e.id === id)!).filter(Boolean);
     return EINTRAEGE.filter((e) => (sys === 'alle' || e.system === sys) && (!n || norm([e.name, ...(e.suche ?? [])].join(' ')).includes(n))).slice(0, 12);
   }, [q, sys]);
   const nimm = (e: Eintrag, i: number, g: number) => setWahl((o) => [...o.filter((w) => w.id !== e.id), { id: e.id, stufe: i, gdb: g }].slice(-6));

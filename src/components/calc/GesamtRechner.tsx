@@ -86,15 +86,15 @@ export default function GesamtRechner({ methodHref, preset = {} }: Props) {
             </fieldset>
           ))}
           {rows.length < 6 && <button type="button" onClick={add} className="rounded-md border border-navy-300 bg-white px-3 py-2 text-sm font-medium text-navy-800 hover:bg-navy-50">Weitere Beeinträchtigung</button>}
-          <div role="group" aria-labelledby="g-mz-l">
-            <p id="g-mz-l" className="mb-1 text-sm font-medium text-navy-700">Merkzeichen (falls schon festgestellt)</p>
+          <fieldset>
+            <legend className="mb-1 text-sm font-medium text-navy-700">Merkzeichen (falls schon festgestellt)</legend>
             <div className="flex flex-wrap gap-2">
               {MERKZEICHEN.map((m) => (
                 <button key={m} type="button" aria-pressed={mz.includes(m)} title={MZ_NAME[m]} onClick={() => toggle(m)}
                   className={`h-10 min-w-[3rem] rounded-md border px-3 text-sm font-semibold ${mz.includes(m) ? 'border-accent-600 bg-accent-600 text-white' : 'border-navy-300 bg-white text-navy-800 hover:bg-navy-50'}`}>{m}</button>
               ))}
             </div>
-          </div>
+          </fieldset>
           <div className="grid grid-cols-2 gap-x-4">
             <NumberField id="g-j" label="Geburtsjahr (für die Rente)" value={jahr} onChange={setJahr} min={1940} max={2025} plain />
           </div>

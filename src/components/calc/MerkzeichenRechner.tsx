@@ -35,8 +35,8 @@ export default function MerkzeichenRechner({ methodHref, preset = {} }: Props) {
           <div className="grid grid-cols-2 gap-x-4 gap-y-4">
             <SelectField id="m-g" label="Grad der Behinderung" value={String(gdb)} onChange={(v) => setGdb(Number(v))} options={[20, 30, 40, 50, 60, 70, 80, 90, 100].map((g) => ({ value: String(g), label: `GdB ${g}` }))} />
           </div>
-          <div role="group" aria-labelledby="m-mz-l">
-            <p id="m-mz-l" className="mb-1 text-sm font-medium text-navy-700">Merkzeichen im Ausweis</p>
+          <fieldset>
+            <legend className="mb-1 text-sm font-medium text-navy-700">Merkzeichen im Ausweis</legend>
             <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
               {MERKZEICHEN.map((m) => (
                 <button key={m} type="button" aria-pressed={mz.includes(m)} onClick={() => toggle(m)}
@@ -45,7 +45,7 @@ export default function MerkzeichenRechner({ methodHref, preset = {} }: Props) {
                 </button>
               ))}
             </div>
-          </div>
+          </fieldset>
         </form>
         <div aria-live="polite" data-resultat className={kasten}>
           <Kopf label="Nachteilsausgleiche aus GdB und Merkzeichen" wert={`${anzahl} von ${liste.length}`} unter={mz.length ? `GdB ${gdb} mit ${mz.join(', ')}` : `GdB ${gdb} ohne Merkzeichen`} />

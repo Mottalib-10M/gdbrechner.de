@@ -75,7 +75,7 @@ export default function PauschbetragRechner({ methodHref, preset = {} }: Props) 
           </div>
           <div className="grid grid-cols-2 gap-x-4 gap-y-4">
             <NumberField id="p-z" label="Zu versteuerndes Einkommen" value={zve} onChange={setZve} unit="€" max={2000000} help="ohne Pauschbetrag, laut letztem Bescheid" />
-            <Toggle id="p-s" label="Veranlagung" value={split} onChange={setSplit} options={[{ value: '0', label: 'Einzeln' }, { value: '1', label: 'Zusammen' }]} />
+            <Toggle id="p-s" label="Zusammenveranlagung" value={split} onChange={setSplit} options={[{ value: '0', label: 'Nein' }, { value: '1', label: 'Ja' }]} />
           </div>
           <div className="grid grid-cols-2 gap-x-4 gap-y-4">
             <SelectField id="p-k" label="Kirchensteuer" value={kirche} onChange={setKirche} options={KIRCHE} />

@@ -6,7 +6,7 @@ import { personSchema, organizationSchema, breadcrumbSchema, profilePageSchema }
 import { displayDate } from '../../lib/format';
 const lang = 'de';
 ---
-<PageLayout title="GdB-Rechner: wer den Rechner zum Gesamt-GdB macht" description="Wer hinter dem Rechner zu Gesamt-GdB, Pauschbetrag und Merkzeichen steht, warum es ihn gibt, wie jede Regel an der Versorgungsmedizin-Verordnung geprüft wird und was wir nicht tun." lang={lang} jsonLd={[personSchema(lang), organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Start', path: route('home', lang) }, { name: 'Über uns', path: route('about', lang) }])]} breadcrumbs={[{ label: 'Über uns' }]}>
+<PageLayout title="Über den GdB-Rechner: wer ihn macht und wie er prüft" description="Wer hinter dem Rechner zu Gesamt-GdB, Pauschbetrag und Merkzeichen steht, warum es ihn gibt, wie jede Regel an der Verordnung geprüft wird, was wir nicht tun." lang={lang} jsonLd={[personSchema(lang), organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Start', path: route('home', lang) }, { name: 'Über uns', path: route('about', lang) }])]} breadcrumbs={[{ label: 'Über uns' }]}>
   <header class="mb-6"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">Über {SITE_NAMES.de}</h1></header>
   <div class="prose prose-slate max-w-none">
     <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
