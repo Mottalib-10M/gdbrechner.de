@@ -20,6 +20,7 @@ encore écrits sont dans `tests/planned-ids.json`.
 |---|---|
 | `src/data/params-2026.json` | Seuils, Pauschbeträge, Fahrtkosten, Zusatzurlaub, Kündigung, Rente (§ 236a), Wertmarke, Rundfunk, tarif § 32a 2026, Soli, zumutbare Belastung, **annahme du Gesamt-GdB** (hypothèse du site, publiée sur /de/methodik/), sources |
 | `src/data/tabelle.json` | 150 entrées de Teil B (texte abrégé, `von`/`bis`, `heilungsbewaehrung`) ; quelques valeurs 15/25 et 8 entrées sans `stufen` sont voulues |
+| `src/data/dog-tabelle.json` | MdE-Tabelle der DOG complète (Teil B Nr. 4.3, 14 × 14, symétrique), lue par `engine/augen.ts` et le mini `augen` (page `/de/gdb-augen/`) |
 | `src/data/systeme.ts`, `src/data/merkzeichen.ts` | Funktionssysteme ; Merkzeichen avec condition légale |
 
 Moteur `src/lib/engine/` : `gesamt.ts` (Teil A Nr. 3 : système, plus haut Einzel-GdB, relations 3.3.1 à 3.3.4,
@@ -36,3 +37,8 @@ Calculateurs : `src/components/calc/{Gesamt,Tabelle,Pauschbetrag,Merkzeichen,Url
 - `scripts/typo-nbsp.mjs` : la liste des mots qui protègent un nombre à point (« Nr. 3.2 », « Nummer 3.1 ») a été
   complétée pour ce site ; écrire « Nr. 18.9 », pas « (18.9) » seul, sinon le point devient virgule.
 - `check-anglais.py` est retiré de `npm run check` : le site est allemand seul (brief du lot c).
+
+## Ajouts du 2026-10-21 (SERP google.de)
+
+- `/de/gdb-augen/` (Teil B Nr. 4, mini `augen`) et `/de/gdb-adhs-autismus/` (Teil B Nr. 3.5, mini `kind`), angles des recherches associées « GdB Rechner Augen / ADHS / Kinder ».
+- « Grad der Behinderung » en toutes lettres dans le H1 de l'accueil, le titre et le H1 de la GdB-Tabelle, le H1 de « beantragen ».

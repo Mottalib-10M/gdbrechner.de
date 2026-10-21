@@ -10,8 +10,8 @@ export default (): MiniSpec => ({
     const d = P.rundfunk.voll - P.rundfunk.ermaessigt;
     const m = Math.min(36, Math.max(0, Math.round(v.m)));
     return {
-      head: ['Ersparnis im Jahr', eur(d * 12, 2)],
-      rows: [['Beitrag statt', `${eur(P.rundfunk.ermaessigt, 2)} statt ${eur(P.rundfunk.voll, 2)}`], ['Rückwirkend höchstens', eur(d * m, 2)]],
+      head: ['Ersparnis im Jahr', eur(d * 12)],
+      rows: [['Beitrag statt', `${eur(P.rundfunk.ermaessigt, 2)} statt ${eur(P.rundfunk.voll, 2)}`], ['Rückwirkend höchstens', eur(d * m)]],
       note: 'Ermäßigung auf Antrag, frühestens drei Jahre vor dem Antragsmonat (§ 4 Abs. 4 RBStV).',
     };
   },

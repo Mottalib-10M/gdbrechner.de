@@ -1,5 +1,5 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://de-grad-der-behinderung.example";
+export const SITE_URL = "https://gdbrechner.de";
 export const SITE_NAMES: Record<string, string> = {"de": "GdB-Rechner", "en": "GdB-Rechner"};
 export const LANG_TAGS: Record<string, string> = {"de": "de-DE", "en": "en-DE"};
 export const OG_LOCALES: Record<string, string> = {"de": "de_DE", "en": "en_GB"};
@@ -17,7 +17,7 @@ export const AUTHOR_DESC: Record<string, string> = {"de": "Radif Partners liest 
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"de": ["Versorgungsmedizin-Verordnung (Versorgungsmedizinische Grundsätze, Teil A bis D)", "Feststellung des Grades der Behinderung nach § 152 SGB IX", "Behinderten-Pauschbetrag nach § 33b EStG", "Nachteilsausgleiche und Merkzeichen nach der Schwerbehindertenausweisverordnung"], "en": ["German medical assessment ordinance (VersMedV)", "Assessment of the degree of disability under Social Code IX", "Disability lump sum under section 33b Income Tax Act", "Disability card markers and entitlements"]};
-export const CONTACT_EMAIL = "kontakt@de-grad-der-behinderung.example";
+export const CONTACT_EMAIL = "kontakt@gdbrechner.de";
 export const THEME_COLOR = '#8B1E2D';
 export const LOGO_SYMBOL = 'GdB';
 export const BING_VERIFY_CODE = '';
@@ -67,7 +67,7 @@ export const LEGAL: LegalIdentity = {
 };
 
 /** Champs sans lesquels le site ne doit pas être mis en ligne. */
-export const LEGAL_REQUIRED: Array<keyof LegalIdentity> = ['entityName', 'legalForm', 'street', 'postalCode', 'city'];
+export const LEGAL_REQUIRED: Array<keyof LegalIdentity> = ['entityName', 'street', 'postalCode', 'city']; // legalForm vide à dessein, comme les autres sites du portefeuille
 
 /** Profils publics de l'auteur (schema.org sameAs). Laisser vide si aucun. */
 export const AUTHOR_SAME_AS: string[] = [];
