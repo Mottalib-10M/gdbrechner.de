@@ -11,7 +11,8 @@ export function navCategories(lang: Locale): NavCategory[] {
   return GROUPS.filter((g) => g !== 'tabelle').map((g) => ({ label: GROUP_LABEL[g], links: g === 'rechner' ? [link('home', lang), ...inGroup(g, lang)] : inGroup(g, lang) })).filter((c) => c.links.length);
 }
 export const groupLabel = (g: Group, _lang: Locale = 'de') => GROUP_LABEL[g];
-export const navDirect = (lang: Locale): NavLink[] => [link('method', lang)];
+// Methode : liee en bas de page, hors du menu du haut pour qu'il tienne sur une ligne.
+export const navDirect = (_lang: Locale): NavLink[] => [];
 export const footerColumns = (lang: Locale): NavCategory[] => [
   { label: GROUP_LABEL.rechner, links: [link('home', lang), ...inGroup('rechner', lang)] },
   { label: GROUP_LABEL.stufen, links: inGroup('stufen', lang) },
